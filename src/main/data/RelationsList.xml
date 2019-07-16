@@ -1,0 +1,3983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ICECAT-interface SYSTEM "http://data.icecat.biz/dtd/ICECAT-relations.dtd">
+<!-- source: Icecat.biz 2019 -->
+<ICECAT-interface>
+	<RelationGroup ID="1" name="Individual relation" description="The general group">
+	</RelationGroup>
+	<RelationGroup ID="22" name="CaseLogic" description="x-sells CaseLogic products">
+		<Relation ID="216" name="notebooks (15.4&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="1273">
+					<Supplier ID="148" />
+					<Prod_id value="PNC15" />
+				</Rule>
+				<Rule ID="1274">
+					<Supplier ID="148" />
+					<Prod_id value="KLC15" />
+				</Rule>
+				<Rule ID="1275">
+					<Supplier ID="148" />
+					<Prod_id value="VNC216" />
+				</Rule>
+				<Rule ID="1276">
+					<Supplier ID="148" />
+					<Prod_id value="NCV116" />
+				</Rule>
+				<Rule ID="1277">
+					<Supplier ID="148" />
+					<Prod_id value="NBP3" />
+				</Rule>
+				<Rule ID="1278">
+					<Supplier ID="148" />
+					<Prod_id value="LNB15K" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="901">
+					<Category ID="151" />
+					<Feature ID="944" exact="less"><![CDATA[15.4]]></Feature>
+					<Start_date value="2008-06-30" />
+					<End_date value="2009-12-31" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="217" name="notebooks (17&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="1279">
+					<Supplier ID="148" />
+					<Prod_id value="VNC218" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="906">
+					<Category ID="151" />
+					<Feature ID="944" exact="less"><![CDATA[17]]></Feature>
+					<Start_date value="2008-06-30" />
+					<End_date value="2009-12-31" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="715" name="notebooks (11.6&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4808">
+					<Supplier ID="148" />
+					<Prod_id value="LAPS111K" />
+				</Rule>
+				<Rule ID="4810">
+					<Supplier ID="148" />
+					<Prod_id value="AUA311K" />
+				</Rule>
+				<Rule ID="4812">
+					<Supplier ID="148" />
+					<Prod_id value="HUXS111K" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4974">
+					<Category ID="151" />
+					<Start_date value="2016-06-22" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="716" name="notebooks (13.3&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4816">
+					<Supplier ID="148" />
+					<Prod_id value="LAPS113K" />
+				</Rule>
+				<Rule ID="4818">
+					<Supplier ID="148" />
+					<Prod_id value="HUXS113K" />
+				</Rule>
+				<Rule ID="4820">
+					<Supplier ID="148" />
+					<Prod_id value="HUXS113B" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4975">
+					<Category ID="151" />
+					<Start_date value="2016-06-22" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="717" name="notebooks (14&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4824">
+					<Supplier ID="148" />
+					<Prod_id value="DLBP114K" />
+				</Rule>
+				<Rule ID="4825">
+					<Supplier ID="148" />
+					<Prod_id value="LAPS114K" />
+				</Rule>
+				<Rule ID="4826">
+					<Supplier ID="148" />
+					<Prod_id value="AUA314K" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4976">
+					<Category ID="151" />
+					<Start_date value="2016-06-22" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="718" name="notebooks (15.6&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4827">
+					<Supplier ID="148" />
+					<Prod_id value="VNCI215" />
+				</Rule>
+				<Rule ID="4828">
+					<Supplier ID="148" />
+					<Prod_id value="VNAI215" />
+				</Rule>
+				<Rule ID="5015">
+					<Supplier ID="148" />
+					<Prod_id value="HUXS115K" />
+				</Rule>
+				<Rule ID="5016">
+					<Supplier ID="148" />
+					<Prod_id value="HUXS115B" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4977">
+					<Category ID="151" />
+					<Start_date value="2016-06-22" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="719" name="notebooks (16&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4833">
+					<Supplier ID="148" />
+					<Prod_id value="LAPS116K" />
+				</Rule>
+				<Rule ID="4834">
+					<Supplier ID="148" />
+					<Prod_id value="DLBP116K" />
+				</Rule>
+				<Rule ID="4979">
+					<Supplier ID="148" />
+					<Prod_id value="AUA316" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4982">
+					<Category ID="151" />
+					<Start_date value="2016-06-22" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="720" name="notebooks (17.3&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4836">
+					<Supplier ID="148" />
+					<Prod_id value="VNCI217" />
+				</Rule>
+				<Rule ID="4837">
+					<Supplier ID="148" />
+					<Prod_id value="VNB217" />
+				</Rule>
+				<Rule ID="4838">
+					<Supplier ID="148" />
+					<Prod_id value="LAPS117K" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4987">
+					<Category ID="151" />
+					<Start_date value="2016-06-22" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="744" name="tablets (iPad Pro 9.7&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4989">
+					<Supplier ID="148" />
+					<Prod_id value="CSIE2144K" />
+				</Rule>
+				<Rule ID="4990">
+					<Supplier ID="148" />
+					<Prod_id value="CSIE2144CON" />
+				</Rule>
+				<Rule ID="4991">
+					<Supplier ID="148" />
+					<Prod_id value="CSIE2144MID" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4992">
+					<Supplier ID="9" />
+					<SupplierFamily ID="63761" />
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="745" name="tablets (iPad Pro 10.5&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4993">
+					<Supplier ID="148" />
+					<Prod_id value="CSIE2145K" />
+				</Rule>
+				<Rule ID="4994">
+					<Supplier ID="148" />
+					<Prod_id value="CSIE2145CON" />
+				</Rule>
+				<Rule ID="4995">
+					<Supplier ID="148" />
+					<Prod_id value="CSIE2145MID" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4996">
+					<Supplier ID="9" />
+					<SupplierFamily ID="63761" />
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="746" name="tablets (iPad Pro 12.9&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4997">
+					<Supplier ID="148" />
+					<Prod_id value="CSIE2146K" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4998">
+					<Supplier ID="9" />
+					<SupplierFamily ID="63761" />
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="747" name="tablets (iPad Mini 4)">
+			<SourceIncludeRules>
+				<Rule ID="4999">
+					<Supplier ID="148" />
+					<Prod_id value="CSIE2142K" />
+				</Rule>
+				<Rule ID="5000">
+					<Supplier ID="148" />
+					<Prod_id value="CSIE2242DBL" />
+				</Rule>
+				<Rule ID="5001">
+					<Supplier ID="7967" />
+					<Prod_id value="TAIE3142K" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5002">
+					<Supplier ID="9" />
+					<SupplierFamily ID="63761" />
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="748" name="tablets (Samsung Galaxy Tab A - E - S)">
+			<SourceIncludeRules>
+				<Rule ID="5003">
+					<Supplier ID="148" />
+					<Prod_id value="CGUE1110K" />
+				</Rule>
+				<Rule ID="5004">
+					<Supplier ID="148" />
+					<Prod_id value="CGUE1110ALK" />
+				</Rule>
+				<Rule ID="5005">
+					<Supplier ID="148" />
+					<Prod_id value="CGUE1110IND" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5006">
+					<Supplier ID="26" />
+					<SupplierFamily ID="65965" />
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+				<Rule ID="5007">
+					<Supplier ID="26" />
+					<SupplierFamily ID="66386" />
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+				<Rule ID="5008">
+					<Supplier ID="26" />
+					<SupplierFamily ID="65170" />
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="749" name="tablets (Samsung Galaxy Tab A 10.5&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="5009">
+					<Supplier ID="148" />
+					<Prod_id value="CSGE2188GRA" />
+				</Rule>
+				<Rule ID="5010">
+					<Supplier ID="148" />
+					<Prod_id value="CSGE2188B" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5012">
+					<Supplier ID="26" />
+					<SupplierFamily ID="65965" />
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="750" name="tablets (Microsoft Surface Pro 4)">
+			<SourceIncludeRules>
+				<Rule ID="5013">
+					<Supplier ID="148" />
+					<Prod_id value="CKSE2197K" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5014">
+					<Supplier ID="100" />
+					<SupplierFamily ID="65796" />
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="751" name="tablets (Max 7&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="5017">
+					<Supplier ID="148" />
+					<Prod_id value="CBUE1107K" />
+				</Rule>
+				<Rule ID="5018">
+					<Supplier ID="148" />
+					<Prod_id value="CBUE1107DG" />
+				</Rule>
+				<Rule ID="5019">
+					<Supplier ID="148" />
+					<Prod_id value="CBUE1107LG" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5020">
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+				<Rule ID="5031">
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="752" name="tablets (Max 8&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="5021">
+					<Supplier ID="148" />
+					<Prod_id value="CBUE1108K" />
+				</Rule>
+				<Rule ID="5022">
+					<Supplier ID="148" />
+					<Prod_id value="CBUE1108DG" />
+				</Rule>
+				<Rule ID="5023">
+					<Supplier ID="148" />
+					<Prod_id value="CBUE1108LG" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5024">
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+				<Rule ID="5032">
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="753" name="tablets (Max 10&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="5025">
+					<Supplier ID="148" />
+					<Prod_id value="CBUE1110K" />
+				</Rule>
+				<Rule ID="5026">
+					<Supplier ID="148" />
+					<Prod_id value="CBUE1110DG" />
+				</Rule>
+				<Rule ID="5027">
+					<Supplier ID="148" />
+					<Prod_id value="CBUE1110LG" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5028">
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+				<Rule ID="5030">
+					<Category ID="897" />
+					<Start_date value="2017-07-13" />
+					<End_date value="2018-07-13" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+	</RelationGroup>
+	<RelationGroup ID="25" name="Datalogic" description="x-sell Datalogic">
+		<Relation ID="224" name="QD2130-BKK1S">
+			<SourceIncludeRules>
+				<Rule ID="1298">
+					<Supplier ID="1483" />
+					<Prod_id value="QD2130-BKK1S" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1299">
+					<Category ID="159" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+	</RelationGroup>
+	<RelationGroup ID="32" name="Golla" description="x-sells Golla products">
+		<Relation ID="305" name="afmetingen">
+			<SourceIncludeRules>
+				<Rule ID="1569">
+					<Supplier ID="1679" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+	</RelationGroup>
+	<RelationGroup ID="38" name="Freecom" description="x-sells Freecom products">
+		<Relation ID="354" name="notebooks/laptops">
+			<SourceIncludeRules>
+				<Rule ID="1766">
+					<Supplier ID="14" />
+					<Prod_id value="31269" />
+				</Rule>
+				<Rule ID="1767">
+					<Supplier ID="14" />
+					<Prod_id value="30570" />
+				</Rule>
+				<Rule ID="1769">
+					<Supplier ID="14" />
+					<Prod_id value="22767" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1718">
+					<Category ID="151" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-11-30" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="355" name="PC's">
+			<SourceIncludeRules>
+				<Rule ID="1771">
+					<Supplier ID="14" />
+					<Prod_id value="29420" />
+				</Rule>
+				<Rule ID="1772">
+					<Supplier ID="14" />
+					<Prod_id value="29413" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1773">
+					<Category ID="153" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-11-30" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="356" name="PC's (OS)">
+			<SourceIncludeRules>
+				<Rule ID="1774">
+					<Supplier ID="14" />
+					<Prod_id value="29416" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1775">
+					<Category ID="153" />
+					<Feature ID="3233" exact="less"><![CDATA[Windows XP Professional]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-11-30" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="357" name="netbooks">
+			<SourceIncludeRules>
+				<Rule ID="1767">
+					<Supplier ID="14" />
+					<Prod_id value="30570" />
+				</Rule>
+				<Rule ID="1776">
+					<Supplier ID="14" />
+					<Prod_id value="30496" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1733">
+					<Category ID="1561" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-11-30" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="358" name="LCD TV's">
+			<SourceIncludeRules>
+				<Rule ID="1777">
+					<Supplier ID="14" />
+					<Prod_id value="30532" />
+				</Rule>
+				<Rule ID="1778">
+					<Supplier ID="14" />
+					<Prod_id value="30530" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1779">
+					<Category ID="1078" />
+					<Feature ID="3566" exact="more"><![CDATA[2]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-11-30" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="359" name="LCD TV's (USB)">
+			<SourceIncludeRules>
+				<Rule ID="1780">
+					<Supplier ID="14" />
+					<Prod_id value="30034" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1782">
+					<Category ID="1078" />
+					<Feature ID="2308" exact="more"><![CDATA[1]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-11-30" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="360" name="workstations">
+			<SourceIncludeRules>
+				<Rule ID="1769">
+					<Supplier ID="14" />
+					<Prod_id value="22767" />
+				</Rule>
+				<Rule ID="1772">
+					<Supplier ID="14" />
+					<Prod_id value="29413" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1734">
+					<Category ID="838" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-11-30" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="361" name="servers">
+			<SourceIncludeRules>
+				<Rule ID="1771">
+					<Supplier ID="14" />
+					<Prod_id value="29420" />
+				</Rule>
+				<Rule ID="1783">
+					<Supplier ID="14" />
+					<Prod_id value="29423" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1722">
+					<Category ID="156" />
+					<Feature ID="771" exact="equal"><![CDATA[rack]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-11-30" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="434" name="notebooks/laptops (till 01.07.2010)">
+			<SourceIncludeRules>
+				<Rule ID="1968">
+					<Supplier ID="14" />
+					<Prod_id value="31454" />
+				</Rule>
+				<Rule ID="1969">
+					<Supplier ID="14" />
+					<Prod_id value="31988" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1970">
+					<Category ID="151" />
+					<Feature ID="6" exact="more"><![CDATA[256]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="435" name="notebooks/laptops (till 31.12.2010)">
+			<SourceIncludeRules>
+				<Rule ID="1971">
+					<Supplier ID="14" />
+					<Prod_id value="35010" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1972">
+					<Category ID="151" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-12-31" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="436" name="PC's (till 01.07.2010)">
+			<SourceIncludeRules>
+				<Rule ID="1973">
+					<Supplier ID="14" />
+					<Prod_id value="32232" />
+				</Rule>
+				<Rule ID="1974">
+					<Supplier ID="14" />
+					<Prod_id value="31975" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1977">
+					<Category ID="153" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="437" name="PC's (till 31.12.2010)">
+			<SourceIncludeRules>
+				<Rule ID="1971">
+					<Supplier ID="14" />
+					<Prod_id value="35010" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1976">
+					<Category ID="153" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-12-31" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="438" name="servers (till 01.07.2010)">
+			<SourceIncludeRules>
+				<Rule ID="1978">
+					<Supplier ID="14" />
+					<Prod_id value="32325" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1979">
+					<Category ID="156" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="1980">
+					<Category ID="156" />
+					<Feature ID="734" exact="equal"><![CDATA[rack]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="439" name="servers (till 31.12.2010)">
+			<SourceIncludeRules>
+				<Rule ID="1971">
+					<Supplier ID="14" />
+					<Prod_id value="35010" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1981">
+					<Category ID="156" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-12-31" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="1982">
+					<Category ID="156" />
+					<Feature ID="734" exact="equal"><![CDATA[rack]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-12-31" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="440" name="workstations (till 01.07.2010)">
+			<SourceIncludeRules>
+				<Rule ID="1983">
+					<Supplier ID="14" />
+					<Prod_id value="33744" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1984">
+					<Category ID="838" />
+					<Feature ID="3233" exact="equal"><![CDATA[Windows Vista]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+				<Rule ID="1985">
+					<Category ID="838" />
+					<Feature ID="3233" exact="equal"><![CDATA[Windows XP]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="441" name="workstations (till 31.12.2010)">
+			<SourceIncludeRules>
+				<Rule ID="1971">
+					<Supplier ID="14" />
+					<Prod_id value="35010" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1986">
+					<Category ID="838" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-12-31" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="442" name="netbooks (till 01.07.2010, OS)">
+			<SourceIncludeRules>
+				<Rule ID="1983">
+					<Supplier ID="14" />
+					<Prod_id value="33744" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1987">
+					<Category ID="1561" />
+					<Feature ID="3233" exact="equal"><![CDATA[Windows Vista]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+				<Rule ID="1988">
+					<Category ID="1561" />
+					<Feature ID="3233" exact="equal"><![CDATA[Windows XP]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="443" name="netbooks (till 01.07.2010)">
+			<SourceIncludeRules>
+				<Rule ID="1968">
+					<Supplier ID="14" />
+					<Prod_id value="31454" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1989">
+					<Category ID="1561" />
+					<Feature ID="6" exact="more"><![CDATA[256]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="444" name="netbooks (till 31.12.2010)">
+			<SourceIncludeRules>
+				<Rule ID="1971">
+					<Supplier ID="14" />
+					<Prod_id value="35010" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1990">
+					<Category ID="1561" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-12-31" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="445" name="hard disk drives">
+			<SourceIncludeRules>
+				<Rule ID="1971">
+					<Supplier ID="14" />
+					<Prod_id value="35010" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1991">
+					<Category ID="219" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="446" name="hard disk drives (3.5&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="1992">
+					<Supplier ID="14" />
+					<Prod_id value="34363" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1993">
+					<Category ID="219" />
+					<Feature ID="1926" exact="less"><![CDATA[3.5]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="448" name="LCD TV's (till 01.07.2010)">
+			<SourceIncludeRules>
+				<Rule ID="1995">
+					<Supplier ID="14" />
+					<Prod_id value="32964" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1996">
+					<Category ID="1078" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="449" name="plasma panels">
+			<SourceIncludeRules>
+				<Rule ID="1995">
+					<Supplier ID="14" />
+					<Prod_id value="32964" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1997">
+					<Category ID="903" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="450" name="MP3 players &amp; recorders">
+			<SourceIncludeRules>
+				<Rule ID="1971">
+					<Supplier ID="14" />
+					<Prod_id value="35010" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="1999">
+					<Category ID="850" />
+					<Feature ID="2175" exact="less"><![CDATA[hard disk drive]]></Feature>
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="451" name="media players">
+			<SourceIncludeRules>
+				<Rule ID="1971">
+					<Supplier ID="14" />
+					<Prod_id value="35010" />
+				</Rule>
+				<Rule ID="2000">
+					<Supplier ID="14" />
+					<Prod_id value="32965" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="2001">
+					<Category ID="1373" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="452" name="home cinema systems">
+			<SourceIncludeRules>
+				<Rule ID="1968">
+					<Supplier ID="14" />
+					<Prod_id value="31454" />
+				</Rule>
+				<Rule ID="1971">
+					<Supplier ID="14" />
+					<Prod_id value="35010" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="2002">
+					<Category ID="1082" />
+					<Start_date value="2009-01-01" />
+					<End_date value="2010-07-01" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+	</RelationGroup>
+	<RelationGroup ID="48" name="Newstar" description="x-sells Newstar products">
+		<Relation ID="721" name="PCs/workstations">
+			<SourceIncludeRules>
+				<Rule ID="4839">
+					<Supplier ID="290" />
+					<Prod_id value="CPU-D025BLACK" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4840">
+					<Category ID="153" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+				<Rule ID="5145">
+					<Supplier ID="4701" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="722" name="thin clients">
+			<SourceIncludeRules>
+				<Rule ID="4841">
+					<Supplier ID="290" />
+					<Prod_id value="THINCLIENT-20" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4842">
+					<Category ID="896" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="723" name="tablets">
+			<SourceIncludeRules>
+				<Rule ID="4843">
+					<Supplier ID="290" />
+					<Prod_id value="TABLET-D200BLACK" />
+				</Rule>
+				<Rule ID="4844">
+					<Supplier ID="290" />
+					<Prod_id value="NSLS100" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4845">
+					<Category ID="897" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="724" name="notebooks">
+			<SourceIncludeRules>
+				<Rule ID="4844">
+					<Supplier ID="290" />
+					<Prod_id value="NSLS100" />
+				</Rule>
+				<Rule ID="4846">
+					<Supplier ID="290" />
+					<Prod_id value="NSLC200" />
+				</Rule>
+				<Rule ID="4847">
+					<Supplier ID="290" />
+					<Prod_id value="NOTEBOOK-D100" />
+				</Rule>
+				<Rule ID="4848">
+					<Supplier ID="290" />
+					<Prod_id value="NOTEBOOK-D300" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4849">
+					<Category ID="151" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="725" name="public displays">
+			<SourceIncludeRules>
+				<Rule ID="4850">
+					<Supplier ID="290" />
+					<Prod_id value="LFD-W1500" />
+				</Rule>
+				<Rule ID="4851">
+					<Supplier ID="290" />
+					<Prod_id value="LFD-W2000" />
+				</Rule>
+				<Rule ID="4852">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-M3000E" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4885">
+					<Category ID="2672" />
+					<Start_date value="2016-06-06" />
+					<End_date value="2017-06-06" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="4878">
+					<Category ID="2672" />
+					<Start_date value="2016-06-06" />
+					<End_date value="2017-06-06" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="726" name="PC flat panels (max. 30&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="1946">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-D960" />
+				</Rule>
+				<Rule ID="4856">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-W25" />
+				</Rule>
+				<Rule ID="4857">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-W830BLACK" />
+				</Rule>
+				<Rule ID="4858">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-C100" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4905">
+					<Category ID="222" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="727" name="PC flat panels (max. 27&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4860">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-D960D" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4861">
+					<Category ID="222" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="728" name="computer monitors (max. 25 kg)">
+			<SourceIncludeRules>
+				<Rule ID="4862">
+					<Supplier ID="290" />
+					<Prod_id value="NSMONITOR10" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4863">
+					<Category ID="222" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="729" name="data projectors">
+			<SourceIncludeRules>
+				<Rule ID="4864">
+					<Supplier ID="290" />
+					<Prod_id value="BEAMER-C50" />
+				</Rule>
+				<Rule ID="4865">
+					<Supplier ID="290" />
+					<Prod_id value="BEAMER-C100SILVER" />
+				</Rule>
+				<Rule ID="4866">
+					<Supplier ID="290" />
+					<Prod_id value="BEAMER-C350BLACK" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4910">
+					<Category ID="567" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="730" name="LED TVs (17&quot; - 31&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4870">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-W110" />
+				</Rule>
+				<Rule ID="4871">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-W815" />
+				</Rule>
+				<Rule ID="4872">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-W835" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4886">
+					<Category ID="1584" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="4887">
+					<Category ID="1584" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="731" name="LED TVs (32&quot; - 42&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4875">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-W040BLACK" />
+				</Rule>
+				<Rule ID="4876">
+					<Supplier ID="290" />
+					<Prod_id value="LED-W500" />
+				</Rule>
+				<Rule ID="4877">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-M1700E" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4874">
+					<Category ID="1584" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5038">
+					<Category ID="1584" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="732" name="LED TVs (43&quot; - 59&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4889">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-W065BLACK" />
+				</Rule>
+				<Rule ID="4890">
+					<Supplier ID="290" />
+					<Prod_id value="LED-W560" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4891">
+					<Category ID="1584" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="4892">
+					<Category ID="1584" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="733" name="LED TVs (32&quot; - 59&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4893">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-C400BLACK" />
+				</Rule>
+				<Rule ID="4894">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-M1800E" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4896">
+					<Category ID="1584" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="4897">
+					<Category ID="1584" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="734" name="LED TVs (60&quot; - 85&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4898">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-W100" />
+				</Rule>
+				<Rule ID="4899">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-W200" />
+				</Rule>
+				<Rule ID="4900">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-M2000E" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4901">
+					<Category ID="1584" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="4902">
+					<Category ID="1584" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="735" name="computer monitors (19&quot; - 30&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4906">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-D700DD" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4907">
+					<Category ID="222" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="4908">
+					<Category ID="222" />
+					<Start_date value="2016-07-06" />
+					<End_date value="2017-07-06" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="754" name="02.11.17 - PC-flat panels - max. 30&quot;">
+			<SourceIncludeRules>
+				<Rule ID="4856">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-W25" />
+				</Rule>
+				<Rule ID="4857">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-W830BLACK" />
+				</Rule>
+				<Rule ID="4858">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-C100" />
+				</Rule>
+				<Rule ID="5034">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-D1330BLACK" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5041">
+					<Category ID="222" />
+					<Start_date value="2016-10-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="755" name="02.11.17 - PC-flat panels - max. 27&quot;">
+			<SourceIncludeRules>
+				<Rule ID="5040">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-D1330DBLACK" />
+					<Start_date value="2016-11-02" />
+					<End_date value="2017-11-02" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5042">
+					<Category ID="222" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="756" name="02.11.17 - PC-flat panels - 19-30&quot;">
+			<SourceIncludeRules>
+				<Rule ID="4906">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-D700DD" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5043">
+					<Category ID="222" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5047">
+					<Category ID="222" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="757" name="02.11.17 - PC-flat panels (max. 10 kg)">
+			<SourceIncludeRules>
+				<Rule ID="5048">
+					<Supplier ID="290" />
+					<Prod_id value="NSMONITOR20" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5049">
+					<Category ID="222" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="758" name="02.11.17 - PC-flat panels (max. 15 kg)">
+			<SourceIncludeRules>
+				<Rule ID="5050">
+					<Supplier ID="290" />
+					<Prod_id value="NS-WS100BLACK" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5051">
+					<Category ID="222" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="759" name="03.11.17 - LED-tv's (17&quot; - 31&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="5052">
+					<Supplier ID="-1" />
+					<Prod_id value="FPMA-W110" />
+				</Rule>
+				<Rule ID="5053">
+					<Supplier ID="-1" />
+					<Prod_id value="FPMA-W815" />
+				</Rule>
+				<Rule ID="5054">
+					<Supplier ID="-1" />
+					<Prod_id value="FPMA-W835" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5055">
+					<Category ID="1584" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5056">
+					<Category ID="1584" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="760" name="03.11.17 - LED-tv's (32&quot; - 42&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4875">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-W040BLACK" />
+				</Rule>
+				<Rule ID="4876">
+					<Supplier ID="290" />
+					<Prod_id value="LED-W500" />
+				</Rule>
+				<Rule ID="4877">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-M1700E" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5057">
+					<Category ID="1584" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5058">
+					<Category ID="1584" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="761" name="03.11.17 - LED-tv's (32&quot; - 59&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4893">
+					<Supplier ID="290" />
+					<Prod_id value="FPMA-C400BLACK" />
+				</Rule>
+				<Rule ID="4894">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-M1800E" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5060">
+					<Category ID="1584" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5058">
+					<Category ID="1584" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="762" name="03.11.17 - LED-tv's (43&quot; - 59&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4889">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-W065BLACK" />
+				</Rule>
+				<Rule ID="4890">
+					<Supplier ID="290" />
+					<Prod_id value="LED-W560" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5061">
+					<Category ID="1584" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5062">
+					<Category ID="1584" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="763" name="03.11.17 - LED-tv's (60&quot; - 85&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4898">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-W100" />
+				</Rule>
+				<Rule ID="4899">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-W200" />
+				</Rule>
+				<Rule ID="4900">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-M2000E" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5066">
+					<Category ID="1584" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5067">
+					<Category ID="1584" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-04" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="766" name="03.11.17 - Public displays (42&quot; - 100&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="5069">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-W2250SILVER" />
+				</Rule>
+				<Rule ID="5070">
+					<Supplier ID="290" />
+					<Prod_id value="PLASMA-M2250SILVER" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5071">
+					<Category ID="2672" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5073">
+					<Category ID="2672" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="767" name="03.11.17 - Public displays (60&quot; - 100&quot;)">
+			<SourceIncludeRules>
+				<Rule ID="4851">
+					<Supplier ID="290" />
+					<Prod_id value="LFD-W2000" />
+				</Rule>
+				<Rule ID="5068">
+					<Supplier ID="290" />
+					<Prod_id value="LFD-W1000" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5071">
+					<Category ID="2672" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5072">
+					<Category ID="2672" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="768" name="03.11.17 - Notebooks">
+			<SourceIncludeRules>
+				<Rule ID="4844">
+					<Supplier ID="290" />
+					<Prod_id value="NSLS100" />
+				</Rule>
+				<Rule ID="4847">
+					<Supplier ID="290" />
+					<Prod_id value="NOTEBOOK-D100" />
+				</Rule>
+				<Rule ID="4848">
+					<Supplier ID="290" />
+					<Prod_id value="NOTEBOOK-D300" />
+				</Rule>
+				<Rule ID="5074">
+					<Supplier ID="290" />
+					<Prod_id value="NSLS050" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5075">
+					<Category ID="151" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="769" name="03.11.17 - Projectors (No mini, table or pocket)">
+			<SourceIncludeRules>
+				<Rule ID="4864">
+					<Supplier ID="290" />
+					<Prod_id value="BEAMER-C50" />
+				</Rule>
+				<Rule ID="4865">
+					<Supplier ID="290" />
+					<Prod_id value="BEAMER-C100SILVER" />
+				</Rule>
+				<Rule ID="4866">
+					<Supplier ID="290" />
+					<Prod_id value="BEAMER-C350BLACK" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5076">
+					<Category ID="567" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="770" name="03.11.17 - Tablets">
+			<SourceIncludeRules>
+				<Rule ID="4843">
+					<Supplier ID="290" />
+					<Prod_id value="TABLET-D200BLACK" />
+				</Rule>
+				<Rule ID="4844">
+					<Supplier ID="290" />
+					<Prod_id value="NSLS100" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5077">
+					<Category ID="897" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="771" name="03.11.17 - Thin clients">
+			<SourceIncludeRules>
+				<Rule ID="4841">
+					<Supplier ID="290" />
+					<Prod_id value="THINCLIENT-20" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5078">
+					<Category ID="896" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="772" name="03.11.17 - PC's/werkstations">
+			<SourceIncludeRules>
+				<Rule ID="4839">
+					<Supplier ID="290" />
+					<Prod_id value="CPU-D025BLACK" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5079">
+					<Category ID="153" />
+					<Start_date value="2016-11-03" />
+					<End_date value="2017-11-03" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="5141">
+					<Supplier ID="292" />
+				</Rule>
+				<Rule ID="5145">
+					<Supplier ID="4701" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+	</RelationGroup>
+	<RelationGroup ID="65" name="V7" description="x-sells V7 products">
+		<Relation ID="606" name="CTP1-9E">
+			<SourceIncludeRules>
+				<Rule ID="3988">
+					<Supplier ID="138" />
+					<Prod_id value="CTP1-9E" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="3993">
+					<Category ID="151" />
+				</Rule>
+			</DestinationIncludeRules>
+			<DestinationExcludeRules>
+				<Rule ID="3995">
+					<Category ID="151" />
+					<Feature ID="944" exact="non-equal"><![CDATA[15]]></Feature>
+				</Rule>
+				<Rule ID="3996">
+					<Category ID="151" />
+					<Feature ID="944" exact="more"><![CDATA[16]]></Feature>
+				</Rule>
+				<Rule ID="5143">
+					<Supplier ID="292" />
+					<Category ID="151" />
+				</Rule>
+				<Rule ID="5144">
+					<Supplier ID="4701" />
+					<Category ID="151" />
+				</Rule>
+			</DestinationExcludeRules>
+		</Relation>
+		<Relation ID="607" name="Mobile device cases">
+			<SourceIncludeRules>
+				<Rule ID="3992">
+					<Supplier ID="138" />
+					<Prod_id value="TA36BLK-2E" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="3997">
+					<Supplier ID="9" />
+					<Prod_id value="MC979HC/A" />
+				</Rule>
+				<Rule ID="3999">
+					<Supplier ID="9" />
+					<Prod_id value="IPAD232GBB" />
+				</Rule>
+				<Rule ID="4000">
+					<Supplier ID="9" />
+					<Prod_id value="IPAD216GBB" />
+				</Rule>
+				<Rule ID="4001">
+					<Supplier ID="9" />
+					<Prod_id value="MC769NF/A" />
+				</Rule>
+				<Rule ID="4002">
+					<Supplier ID="9" />
+					<Prod_id value="MC769FD/A" />
+				</Rule>
+				<Rule ID="4003">
+					<Supplier ID="9" />
+					<Prod_id value="MC916NF/A" />
+				</Rule>
+				<Rule ID="4004">
+					<Supplier ID="9" />
+					<Prod_id value="MC983NF/A" />
+				</Rule>
+				<Rule ID="4007">
+					<Supplier ID="9" />
+					<Prod_id value="MC981NF/A" />
+				</Rule>
+				<Rule ID="4008">
+					<Supplier ID="9" />
+					<Prod_id value="MC775NF/A" />
+				</Rule>
+				<Rule ID="4010">
+					<Supplier ID="9" />
+					<Prod_id value="MC774FD/A" />
+				</Rule>
+				<Rule ID="4012">
+					<Supplier ID="9" />
+					<Prod_id value="MC982NF/A" />
+				</Rule>
+				<Rule ID="4014">
+					<Supplier ID="9" />
+					<Prod_id value="MC770NF/A" />
+				</Rule>
+				<Rule ID="4015">
+					<Supplier ID="9" />
+					<Prod_id value="MC983D/A" />
+				</Rule>
+				<Rule ID="4016">
+					<Supplier ID="9" />
+					<Prod_id value="MC916D/A" />
+				</Rule>
+				<Rule ID="4017">
+					<Supplier ID="9" />
+					<Prod_id value="MC770D/A" />
+				</Rule>
+				<Rule ID="4023">
+					<Supplier ID="9" />
+					<Prod_id value="MC984NF/A" />
+				</Rule>
+				<Rule ID="4024">
+					<Supplier ID="9" />
+					<Prod_id value="MC979NF/A" />
+				</Rule>
+				<Rule ID="4025">
+					<Supplier ID="9" />
+					<Prod_id value="MC981FD/A" />
+				</Rule>
+				<Rule ID="4026">
+					<Supplier ID="9" />
+					<Prod_id value="MC773NF/A" />
+				</Rule>
+				<Rule ID="4027">
+					<Supplier ID="9" />
+					<Prod_id value="MC984FD/A" />
+				</Rule>
+				<Rule ID="4028">
+					<Supplier ID="9" />
+					<Prod_id value="MC980NF/A" />
+				</Rule>
+				<Rule ID="4029">
+					<Supplier ID="9" />
+					<Prod_id value="MC769D/A" />
+				</Rule>
+				<Rule ID="4030">
+					<Supplier ID="9" />
+					<Prod_id value="MC774D/A" />
+				</Rule>
+				<Rule ID="4031">
+					<Supplier ID="9" />
+					<Prod_id value="MC733FD/A" />
+				</Rule>
+				<Rule ID="4032">
+					<Supplier ID="9" />
+					<Prod_id value="MC982D/A" />
+				</Rule>
+				<Rule ID="4033">
+					<Supplier ID="9" />
+					<Prod_id value="IPAD264GBB" />
+				</Rule>
+				<Rule ID="4034">
+					<Supplier ID="9" />
+					<Prod_id value="MC981D/A" />
+				</Rule>
+				<Rule ID="4035">
+					<Supplier ID="9" />
+					<Prod_id value="MC773D/A" />
+				</Rule>
+				<Rule ID="4036">
+					<Supplier ID="9" />
+					<Prod_id value="MC775D/A" />
+				</Rule>
+				<Rule ID="4037">
+					<Supplier ID="9" />
+					<Prod_id value="MC984D/A" />
+				</Rule>
+				<Rule ID="4038">
+					<Supplier ID="9" />
+					<Prod_id value="MC980D/A" />
+				</Rule>
+				<Rule ID="4039">
+					<Supplier ID="9" />
+					<Prod_id value="MC774NF/A" />
+				</Rule>
+				<Rule ID="4040">
+					<Supplier ID="9" />
+					<Prod_id value="MC979D/A" />
+				</Rule>
+				<Rule ID="4041">
+					<Supplier ID="9" />
+					<Prod_id value="MC773RS/A" />
+				</Rule>
+				<Rule ID="4042">
+					<Supplier ID="9" />
+					<Prod_id value="MC984RS/A" />
+				</Rule>
+				<Rule ID="4043">
+					<Supplier ID="9" />
+					<Prod_id value="MC773FD/A" />
+				</Rule>
+				<Rule ID="4044">
+					<Supplier ID="9" />
+					<Prod_id value="MC769GP/A" />
+				</Rule>
+				<Rule ID="4045">
+					<Supplier ID="9" />
+					<Prod_id value="MC979GP/A" />
+				</Rule>
+				<Rule ID="4046">
+					<Supplier ID="9" />
+					<Prod_id value="MC773GP/A" />
+				</Rule>
+				<Rule ID="4047">
+					<Supplier ID="9" />
+					<Prod_id value="MC982GP/A" />
+				</Rule>
+				<Rule ID="4048">
+					<Supplier ID="9" />
+					<Prod_id value="MC981GP/A" />
+				</Rule>
+				<Rule ID="4049">
+					<Supplier ID="9" />
+					<Prod_id value="MC773B/A" />
+				</Rule>
+				<Rule ID="4050">
+					<Supplier ID="9" />
+					<Prod_id value="MC983B/A" />
+				</Rule>
+				<Rule ID="4051">
+					<Supplier ID="9" />
+					<Prod_id value="MC984E/A" />
+				</Rule>
+				<Rule ID="4052">
+					<Supplier ID="9" />
+					<Prod_id value="MC979B/A" />
+				</Rule>
+				<Rule ID="4053">
+					<Supplier ID="9" />
+					<Prod_id value="MC979E/A" />
+				</Rule>
+				<Rule ID="4054">
+					<Supplier ID="9" />
+					<Prod_id value="MC984B/A" />
+				</Rule>
+				<Rule ID="4055">
+					<Supplier ID="9" />
+					<Prod_id value="MC773E/A" />
+				</Rule>
+				<Rule ID="4056">
+					<Supplier ID="9" />
+					<Prod_id value="MC982B/A" />
+				</Rule>
+				<Rule ID="4057">
+					<Supplier ID="9" />
+					<Prod_id value="MC981B/A" />
+				</Rule>
+				<Rule ID="4058">
+					<Supplier ID="9" />
+					<Prod_id value="MC980B/A" />
+				</Rule>
+				<Rule ID="4059">
+					<Supplier ID="9" />
+					<Prod_id value="MC916B/A" />
+				</Rule>
+				<Rule ID="4060">
+					<Supplier ID="9" />
+					<Prod_id value="MC775B/A" />
+				</Rule>
+				<Rule ID="4061">
+					<Supplier ID="9" />
+					<Prod_id value="MC774B/A" />
+				</Rule>
+				<Rule ID="4062">
+					<Supplier ID="9" />
+					<Prod_id value="MC770B/A" />
+				</Rule>
+				<Rule ID="4063">
+					<Supplier ID="9" />
+					<Prod_id value="MC769B/A" />
+				</Rule>
+				<Rule ID="4064">
+					<Supplier ID="9" />
+					<Prod_id value="MC769E/A" />
+				</Rule>
+				<Rule ID="4065">
+					<Supplier ID="9" />
+					<Prod_id value="MC982E/A" />
+				</Rule>
+				<Rule ID="4066">
+					<Supplier ID="9" />
+					<Prod_id value="MC916TY/A" />
+				</Rule>
+				<Rule ID="4067">
+					<Supplier ID="9" />
+					<Prod_id value="MC980TY/A" />
+				</Rule>
+				<Rule ID="4068">
+					<Supplier ID="9" />
+					<Prod_id value="MC774TY/A" />
+				</Rule>
+				<Rule ID="4069">
+					<Supplier ID="9" />
+					<Prod_id value="MC770TY/A" />
+				</Rule>
+				<Rule ID="4070">
+					<Supplier ID="9" />
+					<Prod_id value="MC773TY/A" />
+				</Rule>
+				<Rule ID="4071">
+					<Supplier ID="9" />
+					<Prod_id value="MC981TY/A" />
+				</Rule>
+				<Rule ID="4072">
+					<Supplier ID="1" />
+					<Prod_id value="MC769TY/A" />
+				</Rule>
+				<Rule ID="4073">
+					<Supplier ID="9" />
+					<Prod_id value="MC769TY/A" />
+				</Rule>
+				<Rule ID="4074">
+					<Supplier ID="9" />
+					<Prod_id value="MC984TY/A" />
+				</Rule>
+				<Rule ID="4075">
+					<Supplier ID="9" />
+					<Prod_id value="MC983TY/A" />
+				</Rule>
+				<Rule ID="4076">
+					<Supplier ID="9" />
+					<Prod_id value="MC775TY/A" />
+				</Rule>
+				<Rule ID="4077">
+					<Supplier ID="9" />
+					<Prod_id value="MC979TY/A" />
+				</Rule>
+				<Rule ID="4078">
+					<Supplier ID="9" />
+					<Prod_id value="MC982TY/A" />
+				</Rule>
+				<Rule ID="4079">
+					<Supplier ID="9" />
+					<Prod_id value="MC769KN/A" />
+				</Rule>
+				<Rule ID="4080">
+					<Supplier ID="9" />
+					<Prod_id value="MC982FD/A" />
+				</Rule>
+				<Rule ID="4081">
+					<Supplier ID="9" />
+					<Prod_id value="MC980FD/A" />
+				</Rule>
+				<Rule ID="4082">
+					<Supplier ID="9" />
+					<Prod_id value="MC979FD/A" />
+				</Rule>
+				<Rule ID="4083">
+					<Supplier ID="9" />
+					<Prod_id value="MC916FD/A" />
+				</Rule>
+				<Rule ID="4084">
+					<Supplier ID="9" />
+					<Prod_id value="MC770FD/A" />
+				</Rule>
+				<Rule ID="4085">
+					<Supplier ID="9" />
+					<Prod_id value="MC963Y/A" />
+				</Rule>
+				<Rule ID="4086">
+					<Supplier ID="9" />
+					<Prod_id value="MD0024/A" />
+				</Rule>
+				<Rule ID="4087">
+					<Supplier ID="9" />
+					<Prod_id value="MC769HC/A" />
+				</Rule>
+				<Rule ID="4088">
+					<Supplier ID="9" />
+					<Prod_id value="MC982HC/A" />
+				</Rule>
+				<Rule ID="4089">
+					<Supplier ID="9" />
+					<Prod_id value="MC773HC/A" />
+				</Rule>
+				<Rule ID="4090">
+					<Supplier ID="9" />
+					<Prod_id value="MC916GP/A" />
+				</Rule>
+				<Rule ID="4091">
+					<Supplier ID="9" />
+					<Prod_id value="MC983FD/A" />
+				</Rule>
+				<Rule ID="4092">
+					<Supplier ID="9" />
+					<Prod_id value="MC775FD/A" />
+				</Rule>
+				<Rule ID="4093">
+					<Supplier ID="9" />
+					<Prod_id value="MC982KS/A" />
+				</Rule>
+				<Rule ID="4094">
+					<Supplier ID="9" />
+					<Prod_id value="MC981KS/A" />
+				</Rule>
+				<Rule ID="4095">
+					<Supplier ID="9" />
+					<Prod_id value="MC775KS/A" />
+				</Rule>
+				<Rule ID="4096">
+					<Supplier ID="9" />
+					<Prod_id value="MC773KS/A" />
+				</Rule>
+				<Rule ID="4097">
+					<Supplier ID="9" />
+					<Prod_id value="MC983KS/A" />
+				</Rule>
+				<Rule ID="4098">
+					<Supplier ID="9" />
+					<Prod_id value="MC774KS/A" />
+				</Rule>
+				<Rule ID="4099">
+					<Supplier ID="9" />
+					<Prod_id value="MC984KS/A" />
+				</Rule>
+				<Rule ID="4100">
+					<Supplier ID="9" />
+					<Prod_id value="MC980KS/A" />
+				</Rule>
+				<Rule ID="4101">
+					<Supplier ID="9" />
+					<Prod_id value="MC979KS/A" />
+				</Rule>
+				<Rule ID="4102">
+					<Supplier ID="9" />
+					<Prod_id value="MC916KS/A" />
+				</Rule>
+				<Rule ID="4103">
+					<Supplier ID="9" />
+					<Prod_id value="MC770KS/A" />
+				</Rule>
+				<Rule ID="4104">
+					<Supplier ID="9" />
+					<Prod_id value="MC769KS/A" />
+				</Rule>
+				<Rule ID="4105">
+					<Supplier ID="9" />
+					<Prod_id value="MD002T/A" />
+				</Rule>
+				<Rule ID="4106">
+					<Supplier ID="9" />
+					<Prod_id value="MC963T/A" />
+				</Rule>
+				<Rule ID="4107">
+					<Supplier ID="9" />
+					<Prod_id value="MC755LL/A" />
+				</Rule>
+				<Rule ID="4108">
+					<Supplier ID="9" />
+					<Prod_id value="MC986LL/A" />
+				</Rule>
+				<Rule ID="4109">
+					<Supplier ID="9" />
+					<Prod_id value="MC763LL/A" />
+				</Rule>
+				<Rule ID="4110">
+					<Supplier ID="9" />
+					<Prod_id value="MC764LL/A" />
+				</Rule>
+				<Rule ID="4111">
+					<Supplier ID="9" />
+					<Prod_id value="MC985LL/A" />
+				</Rule>
+				<Rule ID="4112">
+					<Supplier ID="9" />
+					<Prod_id value="MC987LL/A" />
+				</Rule>
+				<Rule ID="4113">
+					<Supplier ID="9" />
+					<Prod_id value="MC983RS/A" />
+				</Rule>
+				<Rule ID="4114">
+					<Supplier ID="9" />
+					<Prod_id value="MD002NF/A" />
+				</Rule>
+				<Rule ID="4115">
+					<Supplier ID="9" />
+					<Prod_id value="MC770GP/A" />
+				</Rule>
+				<Rule ID="4116">
+					<Supplier ID="9" />
+					<Prod_id value="MC983PL/A" />
+				</Rule>
+				<Rule ID="4117">
+					<Supplier ID="9" />
+					<Prod_id value="MC773PL/A" />
+				</Rule>
+				<Rule ID="4118">
+					<Supplier ID="9" />
+					<Prod_id value="MC984GP/A" />
+				</Rule>
+				<Rule ID="4119">
+					<Supplier ID="9" />
+					<Prod_id value="MC983GP/A" />
+				</Rule>
+				<Rule ID="4120">
+					<Supplier ID="9" />
+					<Prod_id value="MC980GP/A" />
+				</Rule>
+				<Rule ID="4121">
+					<Supplier ID="9" />
+					<Prod_id value="MC775GP/A" />
+				</Rule>
+				<Rule ID="4122">
+					<Supplier ID="9" />
+					<Prod_id value="MC963NF/A" />
+				</Rule>
+				<Rule ID="4123">
+					<Supplier ID="9" />
+					<Prod_id value="MC984PL/A" />
+				</Rule>
+				<Rule ID="4124">
+					<Supplier ID="9" />
+					<Prod_id value="MC983E/A" />
+				</Rule>
+				<Rule ID="4125">
+					<Supplier ID="9" />
+					<Prod_id value="MC980E/A" />
+				</Rule>
+				<Rule ID="4126">
+					<Supplier ID="9" />
+					<Prod_id value="MC981E/A" />
+				</Rule>
+				<Rule ID="4127">
+					<Supplier ID="9" />
+					<Prod_id value="MC916E/A" />
+				</Rule>
+				<Rule ID="4128">
+					<Supplier ID="9" />
+					<Prod_id value="MC775E/A" />
+				</Rule>
+				<Rule ID="4129">
+					<Supplier ID="9" />
+					<Prod_id value="MC774E/A" />
+				</Rule>
+				<Rule ID="4130">
+					<Supplier ID="9" />
+					<Prod_id value="MC770E/A" />
+				</Rule>
+				<Rule ID="4131">
+					<Supplier ID="9" />
+					<Prod_id value="MC984KN/A" />
+				</Rule>
+				<Rule ID="4132">
+					<Supplier ID="9" />
+					<Prod_id value="MC983KN/A" />
+				</Rule>
+				<Rule ID="4133">
+					<Supplier ID="9" />
+					<Prod_id value="MC981HC/A" />
+				</Rule>
+				<Rule ID="4134">
+					<Supplier ID="9" />
+					<Prod_id value="MC984HC/A" />
+				</Rule>
+				<Rule ID="4135">
+					<Supplier ID="9" />
+					<Prod_id value="MC983HC/A" />
+				</Rule>
+				<Rule ID="4136">
+					<Supplier ID="9" />
+					<Prod_id value="MC980HC/A" />
+				</Rule>
+				<Rule ID="4137">
+					<Supplier ID="9" />
+					<Prod_id value="MC916HC/A" />
+				</Rule>
+				<Rule ID="4138">
+					<Supplier ID="9" />
+					<Prod_id value="MC775HC/A" />
+				</Rule>
+				<Rule ID="4139">
+					<Supplier ID="9" />
+					<Prod_id value="MC770HC/A" />
+				</Rule>
+				<Rule ID="4140">
+					<Supplier ID="9" />
+					<Prod_id value="MC774AE/A" />
+				</Rule>
+				<Rule ID="4141">
+					<Supplier ID="9" />
+					<Prod_id value="MC774HC/A" />
+				</Rule>
+				<Rule ID="4142">
+					<Supplier ID="9" />
+					<Prod_id value="MC774GP/A" />
+				</Rule>
+				<Rule ID="4143">
+					<Supplier ID="9" />
+					<Prod_id value="MC774HB/A" />
+				</Rule>
+				<Rule ID="4144">
+					<Supplier ID="9" />
+					<Prod_id value="MC774PL/A" />
+				</Rule>
+				<Rule ID="4145">
+					<Supplier ID="9" />
+					<Prod_id value="MC774HN/A" />
+				</Rule>
+				<Rule ID="4146">
+					<Supplier ID="9" />
+					<Prod_id value="MC774TU/A" />
+				</Rule>
+				<Rule ID="4147">
+					<Supplier ID="9" />
+					<Prod_id value="MC982KN/A" />
+				</Rule>
+				<Rule ID="4148">
+					<Supplier ID="9" />
+					<Prod_id value="MC981KN/A" />
+				</Rule>
+				<Rule ID="4149">
+					<Supplier ID="9" />
+					<Prod_id value="MC980KN/A" />
+				</Rule>
+				<Rule ID="4150">
+					<Supplier ID="9" />
+					<Prod_id value="MC979KN/A" />
+				</Rule>
+				<Rule ID="4151">
+					<Supplier ID="9" />
+					<Prod_id value="MC916KN/A" />
+				</Rule>
+				<Rule ID="4152">
+					<Supplier ID="9" />
+					<Prod_id value="MC775KN/A" />
+				</Rule>
+				<Rule ID="4153">
+					<Supplier ID="9" />
+					<Prod_id value="MC774KN/A" />
+				</Rule>
+				<Rule ID="4154">
+					<Supplier ID="9" />
+					<Prod_id value="MC773KN/A" />
+				</Rule>
+				<Rule ID="4155">
+					<Supplier ID="9" />
+					<Prod_id value="MC770KN/A" />
+				</Rule>
+				<Rule ID="4156">
+					<Supplier ID="9" />
+					<Prod_id value="MC774RS/A" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="608" name="V7 Alternative Toner for Brother TN-2000">
+			<SourceIncludeRules>
+				<Rule ID="4157">
+					<Supplier ID="138" />
+					<Prod_id value="T6K6100-1E" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4158">
+					<Supplier ID="189" />
+					<Prod_id value="HL-2030" />
+				</Rule>
+				<Rule ID="4159">
+					<Supplier ID="189" />
+					<Prod_id value="HL-2040" />
+				</Rule>
+				<Rule ID="4160">
+					<Supplier ID="189" />
+					<Prod_id value="HL-2070N" />
+				</Rule>
+				<Rule ID="4161">
+					<Supplier ID="189" />
+					<Prod_id value="Fax-2820" />
+				</Rule>
+				<Rule ID="4162">
+					<Supplier ID="189" />
+					<Prod_id value="Fax-2920" />
+				</Rule>
+				<Rule ID="4163">
+					<Supplier ID="189" />
+					<Prod_id value="DCP-7010" />
+				</Rule>
+				<Rule ID="4164">
+					<Supplier ID="189" />
+					<Prod_id value="DCP-7010L" />
+				</Rule>
+				<Rule ID="4165">
+					<Supplier ID="189" />
+					<Prod_id value="DCP-7025" />
+				</Rule>
+				<Rule ID="4166">
+					<Supplier ID="189" />
+					<Prod_id value="MFC-7225N" />
+				</Rule>
+				<Rule ID="4167">
+					<Supplier ID="189" />
+					<Prod_id value="MFC-7420" />
+				</Rule>
+				<Rule ID="4168">
+					<Supplier ID="189" />
+					<Prod_id value="MFC-7820N" />
+				</Rule>
+				<Rule ID="4302">
+					<Supplier ID="189" />
+					<Prod_id value="TN-2000" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="609" name="V7 Alternative Toner for HP Q2612A">
+			<SourceIncludeRules>
+				<Rule ID="4222">
+					<Supplier ID="138" />
+					<Prod_id value="T7K7112-1E" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4169">
+					<Supplier ID="1" />
+					<Prod_id value="Q2460A#ABU" />
+				</Rule>
+				<Rule ID="4170">
+					<Supplier ID="1" />
+					<Prod_id value="Q2460A#405" />
+				</Rule>
+				<Rule ID="4171">
+					<Supplier ID="1" />
+					<Prod_id value="Q2460A" />
+				</Rule>
+				<Rule ID="4172">
+					<Supplier ID="1" />
+					<Prod_id value="Q2461A" />
+				</Rule>
+				<Rule ID="4173">
+					<Supplier ID="1" />
+					<Prod_id value="Q2461A#405" />
+				</Rule>
+				<Rule ID="4174">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#ABY" />
+				</Rule>
+				<Rule ID="4175">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#BCL" />
+				</Rule>
+				<Rule ID="4176">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#BB1" />
+				</Rule>
+				<Rule ID="4177">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#ABU" />
+				</Rule>
+				<Rule ID="4178">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#BCM" />
+				</Rule>
+				<Rule ID="4179">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#ABD" />
+				</Rule>
+				<Rule ID="4180">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#ABA" />
+				</Rule>
+				<Rule ID="4181">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A" />
+				</Rule>
+				<Rule ID="4182">
+					<Supplier ID="1" />
+					<Prod_id value="Q2462A" />
+				</Rule>
+				<Rule ID="4183">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#B1J" />
+				</Rule>
+				<Rule ID="4184">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#BB1--RET" />
+				</Rule>
+				<Rule ID="4185">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#ABH" />
+				</Rule>
+				<Rule ID="4186">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#ABD#" />
+				</Rule>
+				<Rule ID="4187">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#ABZ" />
+				</Rule>
+				<Rule ID="4188">
+					<Supplier ID="1" />
+					<Prod_id value="CB394A#AR8" />
+				</Rule>
+				<Rule ID="4189">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911A#ABY" />
+				</Rule>
+				<Rule ID="4190">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911A#427" />
+				</Rule>
+				<Rule ID="4191">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911A#ABU" />
+				</Rule>
+				<Rule ID="4192">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911A#428" />
+				</Rule>
+				<Rule ID="4193">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911A#405" />
+				</Rule>
+				<Rule ID="4194">
+					<Supplier ID="1" />
+					<Prod_id value="CC418A" />
+				</Rule>
+				<Rule ID="4195">
+					<Supplier ID="1" />
+					<Prod_id value="CC466A" />
+				</Rule>
+				<Rule ID="4196">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911AR" />
+				</Rule>
+				<Rule ID="4197">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911A" />
+				</Rule>
+				<Rule ID="4198">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911A#427 G" />
+				</Rule>
+				<Rule ID="4199">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911A#427 10+1" />
+				</Rule>
+				<Rule ID="4200">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911A#427--OK" />
+				</Rule>
+				<Rule ID="4201">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911A#ABA" />
+				</Rule>
+				<Rule ID="4202">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911AR#405" />
+				</Rule>
+				<Rule ID="4203">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911AR#ABA" />
+				</Rule>
+				<Rule ID="4204">
+					<Supplier ID="1" />
+					<Prod_id value="Q5911AR#ABA-REFURBISHED" />
+				</Rule>
+				<Rule ID="4205">
+					<Supplier ID="1" />
+					<Prod_id value="Q7514A" />
+				</Rule>
+				<Rule ID="4206">
+					<Supplier ID="1" />
+					<Prod_id value="Q5914A#405" />
+				</Rule>
+				<Rule ID="4207">
+					<Supplier ID="1" />
+					<Prod_id value="Q5913A#427" />
+				</Rule>
+				<Rule ID="4208">
+					<Supplier ID="1" />
+					<Prod_id value="Q5913A#ABA" />
+				</Rule>
+				<Rule ID="4209">
+					<Supplier ID="1" />
+					<Prod_id value="Q5914A#ABU" />
+				</Rule>
+				<Rule ID="4210">
+					<Supplier ID="1" />
+					<Prod_id value="Q5913A#405" />
+				</Rule>
+				<Rule ID="4211">
+					<Supplier ID="1" />
+					<Prod_id value="Q5913A#ABU" />
+				</Rule>
+				<Rule ID="4212">
+					<Supplier ID="1" />
+					<Prod_id value="Q5912A#ABU" />
+				</Rule>
+				<Rule ID="4213">
+					<Supplier ID="1" />
+					<Prod_id value="Q5913A#ABY" />
+				</Rule>
+				<Rule ID="4214">
+					<Supplier ID="1" />
+					<Prod_id value="Q5912A#ABY" />
+				</Rule>
+				<Rule ID="4215">
+					<Supplier ID="1" />
+					<Prod_id value="Q5914A#ABY" />
+				</Rule>
+				<Rule ID="4216">
+					<Supplier ID="1" />
+					<Prod_id value="Q5912A#428" />
+				</Rule>
+				<Rule ID="4217">
+					<Supplier ID="1" />
+					<Prod_id value="Q5914A#427" />
+				</Rule>
+				<Rule ID="4218">
+					<Supplier ID="1" />
+					<Prod_id value="LA-Q5912A" />
+				</Rule>
+				<Rule ID="4219">
+					<Supplier ID="1" />
+					<Prod_id value="Q5913A#428" />
+				</Rule>
+				<Rule ID="4220">
+					<Supplier ID="1" />
+					<Prod_id value="Q5914A#420" />
+				</Rule>
+				<Rule ID="4221">
+					<Supplier ID="1" />
+					<Prod_id value="Q5912A#427" />
+				</Rule>
+				<Rule ID="4223">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A" />
+				</Rule>
+				<Rule ID="4224">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A#ABZ" />
+				</Rule>
+				<Rule ID="4225">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A#ABU" />
+				</Rule>
+				<Rule ID="4226">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A#BB1" />
+				</Rule>
+				<Rule ID="4227">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A#ABD" />
+				</Rule>
+				<Rule ID="4228">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A#ABDPRO" />
+				</Rule>
+				<Rule ID="4229">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A#BCM" />
+				</Rule>
+				<Rule ID="4230">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A#BCL#*KIT" />
+				</Rule>
+				<Rule ID="4231">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A#AKD" />
+				</Rule>
+				<Rule ID="4232">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A#B1J" />
+				</Rule>
+				<Rule ID="4233">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A#ABA" />
+				</Rule>
+				<Rule ID="4234">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A#ABY" />
+				</Rule>
+				<Rule ID="4235">
+					<Supplier ID="1" />
+					<Prod_id value="CB376A#BCL" />
+				</Rule>
+				<Rule ID="4236">
+					<Supplier ID="1" />
+					<Prod_id value="Q2665A#ABH" />
+				</Rule>
+				<Rule ID="4237">
+					<Supplier ID="1" />
+					<Prod_id value="Q2665A" />
+				</Rule>
+				<Rule ID="4238">
+					<Supplier ID="1" />
+					<Prod_id value="Q2665A#ABH#*IRISBDL" />
+				</Rule>
+				<Rule ID="4239">
+					<Supplier ID="1" />
+					<Prod_id value="Q2665A#ABF#*IRISBDL" />
+				</Rule>
+				<Rule ID="4240">
+					<Supplier ID="1" />
+					<Prod_id value="Q2665A#ABH/KIT" />
+				</Rule>
+				<Rule ID="4241">
+					<Supplier ID="1" />
+					<Prod_id value="Q2665A#ABF" />
+				</Rule>
+				<Rule ID="4242">
+					<Supplier ID="1" />
+					<Prod_id value="Q2669A#ABH" />
+				</Rule>
+				<Rule ID="4243">
+					<Supplier ID="1" />
+					<Prod_id value="Q2669A" />
+				</Rule>
+				<Rule ID="4244">
+					<Supplier ID="1" />
+					<Prod_id value="Q2669A#ABU" />
+				</Rule>
+				<Rule ID="4245">
+					<Supplier ID="1" />
+					<Prod_id value="Q2669A#B14#*IRISBDL" />
+				</Rule>
+				<Rule ID="4246">
+					<Supplier ID="1" />
+					<Prod_id value="Q2669A#ABH/KIT" />
+				</Rule>
+				<Rule ID="4247">
+					<Supplier ID="1" />
+					<Prod_id value="Q2669A#B14" />
+				</Rule>
+				<Rule ID="4248">
+					<Supplier ID="1" />
+					<Prod_id value="Q2666A#ABH" />
+				</Rule>
+				<Rule ID="4249">
+					<Supplier ID="1" />
+					<Prod_id value="Q2666A" />
+				</Rule>
+				<Rule ID="4250">
+					<Supplier ID="1" />
+					<Prod_id value="Q2666A#AB9" />
+				</Rule>
+				<Rule ID="4251">
+					<Supplier ID="1" />
+					<Prod_id value="Q2666A#B14#*IRISBDL" />
+				</Rule>
+				<Rule ID="4252">
+					<Supplier ID="1" />
+					<Prod_id value="Q2666A#ABH/KIT" />
+				</Rule>
+				<Rule ID="4253">
+					<Supplier ID="1" />
+					<Prod_id value="Q2666A#B14" />
+				</Rule>
+				<Rule ID="4254">
+					<Supplier ID="1" />
+					<Prod_id value="CH376BBNDL" />
+				</Rule>
+				<Rule ID="4255">
+					<Supplier ID="1" />
+					<Prod_id value="CR231B#BGW" />
+				</Rule>
+				<Rule ID="4256">
+					<Supplier ID="1" />
+					<Prod_id value="CH383C#AKY" />
+				</Rule>
+				<Rule ID="4257">
+					<Supplier ID="1" />
+					<Prod_id value="CH376A#B1H" />
+				</Rule>
+				<Rule ID="4258">
+					<Supplier ID="1" />
+					<Prod_id value="CH376B#BEK" />
+				</Rule>
+				<Rule ID="4259">
+					<Supplier ID="1" />
+					<Prod_id value="CR232A#B1H" />
+				</Rule>
+				<Rule ID="4260">
+					<Supplier ID="1" />
+					<Prod_id value="CR231#BEK" />
+				</Rule>
+				<Rule ID="4261">
+					<Supplier ID="1" />
+					<Prod_id value="CH376A" />
+				</Rule>
+				<Rule ID="4262">
+					<Supplier ID="1" />
+					<Prod_id value="Q6504A#ABH" />
+				</Rule>
+				<Rule ID="4263">
+					<Supplier ID="1" />
+					<Prod_id value="CH383C" />
+				</Rule>
+				<Rule ID="4264">
+					<Supplier ID="1" />
+					<Prod_id value="CR231B" />
+				</Rule>
+				<Rule ID="4265">
+					<Supplier ID="1" />
+					<Prod_id value="CH376B" />
+				</Rule>
+				<Rule ID="4266">
+					<Supplier ID="1" />
+					<Prod_id value="CH376B#BEV" />
+				</Rule>
+				<Rule ID="4267">
+					<Supplier ID="1" />
+					<Prod_id value="CR231B#BEV" />
+				</Rule>
+				<Rule ID="4268">
+					<Supplier ID="1" />
+					<Prod_id value="CH376B#BGW" />
+				</Rule>
+				<Rule ID="4269">
+					<Supplier ID="1" />
+					<Prod_id value="Q6510A" />
+				</Rule>
+				<Rule ID="4270">
+					<Supplier ID="1" />
+					<Prod_id value="CR231C" />
+				</Rule>
+				<Rule ID="4271">
+					<Supplier ID="1" />
+					<Prod_id value="CH376B#ABZ" />
+				</Rule>
+				<Rule ID="4272">
+					<Supplier ID="1" />
+					<Prod_id value="Q6504A" />
+				</Rule>
+				<Rule ID="4273">
+					<Supplier ID="1" />
+					<Prod_id value="CH376C" />
+				</Rule>
+				<Rule ID="4274">
+					<Supplier ID="1" />
+					<Prod_id value="Q6502A#ABY" />
+				</Rule>
+				<Rule ID="4275">
+					<Supplier ID="1" />
+					<Prod_id value="Q6502A#BB1" />
+				</Rule>
+				<Rule ID="4276">
+					<Supplier ID="1" />
+					<Prod_id value="Q6502A#ABU" />
+				</Rule>
+				<Rule ID="4277">
+					<Supplier ID="1" />
+					<Prod_id value="Q6502A#ABF" />
+				</Rule>
+				<Rule ID="4278">
+					<Supplier ID="1" />
+					<Prod_id value="Q6502A#ABH" />
+				</Rule>
+				<Rule ID="4279">
+					<Supplier ID="1" />
+					<Prod_id value="Q6502A#ABD" />
+				</Rule>
+				<Rule ID="4280">
+					<Supplier ID="1" />
+					<Prod_id value="Q6502A#AKG" />
+				</Rule>
+				<Rule ID="4281">
+					<Supplier ID="1" />
+					<Prod_id value="Q6502A#AKB" />
+				</Rule>
+				<Rule ID="4282">
+					<Supplier ID="1" />
+					<Prod_id value="Q6502A#ABA" />
+				</Rule>
+				<Rule ID="4283">
+					<Supplier ID="1" />
+					<Prod_id value="Q6502A" />
+				</Rule>
+				<Rule ID="4284">
+					<Supplier ID="1" />
+					<Prod_id value="Q6502A#BC8" />
+				</Rule>
+				<Rule ID="4285">
+					<Supplier ID="1" />
+					<Prod_id value="Q6502A#ABE" />
+				</Rule>
+				<Rule ID="4286">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#AR9" />
+				</Rule>
+				<Rule ID="4287">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#ABZ" />
+				</Rule>
+				<Rule ID="4288">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#ABE" />
+				</Rule>
+				<Rule ID="4289">
+					<Supplier ID="1" />
+					<Prod_id value="B0N11B#BH8" />
+				</Rule>
+				<Rule ID="4290">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#ABDPRO" />
+				</Rule>
+				<Rule ID="4291">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#ABH" />
+				</Rule>
+				<Rule ID="4292">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#ABA" />
+				</Rule>
+				<Rule ID="4293">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#ABD" />
+				</Rule>
+				<Rule ID="4294">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#AKB" />
+				</Rule>
+				<Rule ID="4295">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#ABB" />
+				</Rule>
+				<Rule ID="4296">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#BB1" />
+				</Rule>
+				<Rule ID="4297">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#B14" />
+				</Rule>
+				<Rule ID="4298">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#ABU" />
+				</Rule>
+				<Rule ID="4299">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A#ABY" />
+				</Rule>
+				<Rule ID="4300">
+					<Supplier ID="1" />
+					<Prod_id value="Q6503A" />
+				</Rule>
+				<Rule ID="4301">
+					<Supplier ID="1" />
+					<Prod_id value="Q2612A" />
+				</Rule>
+				<Rule ID="4303">
+					<Supplier ID="1" />
+					<Prod_id value="Q2612AD" />
+				</Rule>
+				<Rule ID="4304">
+					<Supplier ID="1" />
+					<Prod_id value="Q2612A?PK20" />
+				</Rule>
+				<Rule ID="4305">
+					<Supplier ID="1" />
+					<Prod_id value="Q2612AG" />
+				</Rule>
+				<Rule ID="4306">
+					<Supplier ID="1" />
+					<Prod_id value="Q2612AP" />
+				</Rule>
+				<Rule ID="4307">
+					<Supplier ID="1" />
+					<Prod_id value="Q2612A#ABH" />
+				</Rule>
+				<Rule ID="4308">
+					<Supplier ID="1" />
+					<Prod_id value="Q2612AD#004" />
+				</Rule>
+				<Rule ID="4309">
+					<Supplier ID="1" />
+					<Prod_id value="Q2612AF" />
+				</Rule>
+				<Rule ID="4310">
+					<Supplier ID="1" />
+					<Prod_id value="Q2612AT" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+	</RelationGroup>
+	<RelationGroup ID="78" name="HANNspree" description="x-sells HANNspree products">
+		<Relation ID="736" name="notebooks (VGA)">
+			<SourceIncludeRules>
+				<Rule ID="4911">
+					<Supplier ID="6712" />
+					<Prod_id value="HE195ANB" />
+				</Rule>
+				<Rule ID="4915">
+					<Supplier ID="6712" />
+					<Prod_id value="HE196APB" />
+				</Rule>
+				<Rule ID="4916">
+					<Supplier ID="6712" />
+					<Prod_id value="HL205ABB" />
+				</Rule>
+				<Rule ID="4917">
+					<Supplier ID="6712" />
+					<Prod_id value="HE225ANB" />
+				</Rule>
+				<Rule ID="4918">
+					<Supplier ID="6712" />
+					<Prod_id value="HL205DPB" />
+				</Rule>
+				<Rule ID="4921">
+					<Supplier ID="6712" />
+					<Prod_id value="HL207DPB" />
+				</Rule>
+				<Rule ID="4922">
+					<Supplier ID="6712" />
+					<Prod_id value="HP195DCB" />
+				</Rule>
+				<Rule ID="4923">
+					<Supplier ID="6712" />
+					<Prod_id value="HP205DJB" />
+				</Rule>
+				<Rule ID="4924">
+					<Supplier ID="6712" />
+					<Prod_id value="HX194DPB" />
+				</Rule>
+				<Rule ID="4925">
+					<Supplier ID="6712" />
+					<Prod_id value="HP194DJB" />
+				</Rule>
+				<Rule ID="4926">
+					<Supplier ID="6712" />
+					<Prod_id value="HE225DPB" />
+				</Rule>
+				<Rule ID="4927">
+					<Supplier ID="6712" />
+					<Prod_id value="HL225DBB" />
+				</Rule>
+				<Rule ID="4928">
+					<Supplier ID="6712" />
+					<Prod_id value="HL226HPB" />
+				</Rule>
+				<Rule ID="4929">
+					<Supplier ID="6712" />
+					<Prod_id value="HS221HPB" />
+				</Rule>
+				<Rule ID="4930">
+					<Supplier ID="6712" />
+					<Prod_id value="HL225PPB" />
+				</Rule>
+				<Rule ID="4931">
+					<Supplier ID="6712" />
+					<Prod_id value="HP227DJB" />
+				</Rule>
+				<Rule ID="4932">
+					<Supplier ID="6712" />
+					<Prod_id value="HE247DPB" />
+				</Rule>
+				<Rule ID="4933">
+					<Supplier ID="6712" />
+					<Prod_id value="HL247DBB" />
+				</Rule>
+				<Rule ID="4934">
+					<Supplier ID="6712" />
+					<Prod_id value="HL247HGB" />
+				</Rule>
+				<Rule ID="4935">
+					<Supplier ID="6712" />
+					<Prod_id value="HS245HPB" />
+				</Rule>
+				<Rule ID="4936">
+					<Supplier ID="6712" />
+					<Prod_id value="HP245HJB" />
+				</Rule>
+				<Rule ID="4937">
+					<Supplier ID="6712" />
+					<Prod_id value="HP247HJB" />
+				</Rule>
+				<Rule ID="4938">
+					<Supplier ID="6712" />
+					<Prod_id value="HP246PJB" />
+				</Rule>
+				<Rule ID="4939">
+					<Supplier ID="6712" />
+					<Prod_id value="HL274HPB" />
+				</Rule>
+				<Rule ID="4940">
+					<Supplier ID="6712" />
+					<Prod_id value="HS272HPB" />
+				</Rule>
+				<Rule ID="4941">
+					<Supplier ID="6712" />
+					<Prod_id value="HQ271HPG" />
+				</Rule>
+				<Rule ID="4942">
+					<Supplier ID="6712" />
+					<Prod_id value="HT231HPB" />
+				</Rule>
+				<Rule ID="4943">
+					<Supplier ID="6712" />
+					<Prod_id value="HS243HPB" />
+				</Rule>
+				<Rule ID="4944">
+					<Supplier ID="6712" />
+					<Prod_id value="HS246HFW" />
+				</Rule>
+				<Rule ID="4946">
+					<Supplier ID="6712" />
+					<Prod_id value="HT225HPB" />
+				</Rule>
+				<Rule ID="4949">
+					<Supplier ID="6712" />
+					<Prod_id value="HP225PJB" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4959">
+					<Category ID="151" />
+					<Start_date value="2016-09-20" />
+					<End_date value="2017-09-20" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="737" name="PCs/workstations (VGA)">
+			<SourceIncludeRules>
+				<Rule ID="4911">
+					<Supplier ID="6712" />
+					<Prod_id value="HE195ANB" />
+				</Rule>
+				<Rule ID="4915">
+					<Supplier ID="6712" />
+					<Prod_id value="HE196APB" />
+				</Rule>
+				<Rule ID="4916">
+					<Supplier ID="6712" />
+					<Prod_id value="HL205ABB" />
+				</Rule>
+				<Rule ID="4917">
+					<Supplier ID="6712" />
+					<Prod_id value="HE225ANB" />
+				</Rule>
+				<Rule ID="4918">
+					<Supplier ID="6712" />
+					<Prod_id value="HL205DPB" />
+				</Rule>
+				<Rule ID="4921">
+					<Supplier ID="6712" />
+					<Prod_id value="HL207DPB" />
+				</Rule>
+				<Rule ID="4922">
+					<Supplier ID="6712" />
+					<Prod_id value="HP195DCB" />
+				</Rule>
+				<Rule ID="4923">
+					<Supplier ID="6712" />
+					<Prod_id value="HP205DJB" />
+				</Rule>
+				<Rule ID="4924">
+					<Supplier ID="6712" />
+					<Prod_id value="HX194DPB" />
+				</Rule>
+				<Rule ID="4925">
+					<Supplier ID="6712" />
+					<Prod_id value="HP194DJB" />
+				</Rule>
+				<Rule ID="4926">
+					<Supplier ID="6712" />
+					<Prod_id value="HE225DPB" />
+				</Rule>
+				<Rule ID="4927">
+					<Supplier ID="6712" />
+					<Prod_id value="HL225DBB" />
+				</Rule>
+				<Rule ID="4928">
+					<Supplier ID="6712" />
+					<Prod_id value="HL226HPB" />
+				</Rule>
+				<Rule ID="4929">
+					<Supplier ID="6712" />
+					<Prod_id value="HS221HPB" />
+				</Rule>
+				<Rule ID="4930">
+					<Supplier ID="6712" />
+					<Prod_id value="HL225PPB" />
+				</Rule>
+				<Rule ID="4931">
+					<Supplier ID="6712" />
+					<Prod_id value="HP227DJB" />
+				</Rule>
+				<Rule ID="4932">
+					<Supplier ID="6712" />
+					<Prod_id value="HE247DPB" />
+				</Rule>
+				<Rule ID="4933">
+					<Supplier ID="6712" />
+					<Prod_id value="HL247DBB" />
+				</Rule>
+				<Rule ID="4934">
+					<Supplier ID="6712" />
+					<Prod_id value="HL247HGB" />
+				</Rule>
+				<Rule ID="4935">
+					<Supplier ID="6712" />
+					<Prod_id value="HS245HPB" />
+				</Rule>
+				<Rule ID="4936">
+					<Supplier ID="6712" />
+					<Prod_id value="HP245HJB" />
+				</Rule>
+				<Rule ID="4937">
+					<Supplier ID="6712" />
+					<Prod_id value="HP247HJB" />
+				</Rule>
+				<Rule ID="4938">
+					<Supplier ID="6712" />
+					<Prod_id value="HP246PJB" />
+				</Rule>
+				<Rule ID="4939">
+					<Supplier ID="6712" />
+					<Prod_id value="HL274HPB" />
+				</Rule>
+				<Rule ID="4940">
+					<Supplier ID="6712" />
+					<Prod_id value="HS272HPB" />
+				</Rule>
+				<Rule ID="4941">
+					<Supplier ID="6712" />
+					<Prod_id value="HQ271HPG" />
+				</Rule>
+				<Rule ID="4942">
+					<Supplier ID="6712" />
+					<Prod_id value="HT231HPB" />
+				</Rule>
+				<Rule ID="4943">
+					<Supplier ID="6712" />
+					<Prod_id value="HS243HPB" />
+				</Rule>
+				<Rule ID="4944">
+					<Supplier ID="6712" />
+					<Prod_id value="HS246HFW" />
+				</Rule>
+				<Rule ID="4946">
+					<Supplier ID="6712" />
+					<Prod_id value="HT225HPB" />
+				</Rule>
+				<Rule ID="4949">
+					<Supplier ID="6712" />
+					<Prod_id value="HP225PJB" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4964">
+					<Category ID="153" />
+					<Start_date value="2016-09-20" />
+					<End_date value="2017-09-20" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="738" name="notebooks (DVI)">
+			<SourceIncludeRules>
+				<Rule ID="4918">
+					<Supplier ID="6712" />
+					<Prod_id value="HL205DPB" />
+				</Rule>
+				<Rule ID="4921">
+					<Supplier ID="6712" />
+					<Prod_id value="HL207DPB" />
+				</Rule>
+				<Rule ID="4922">
+					<Supplier ID="6712" />
+					<Prod_id value="HP195DCB" />
+				</Rule>
+				<Rule ID="4923">
+					<Supplier ID="6712" />
+					<Prod_id value="HP205DJB" />
+				</Rule>
+				<Rule ID="4924">
+					<Supplier ID="6712" />
+					<Prod_id value="HX194DPB" />
+				</Rule>
+				<Rule ID="4925">
+					<Supplier ID="6712" />
+					<Prod_id value="HP194DJB" />
+				</Rule>
+				<Rule ID="4926">
+					<Supplier ID="6712" />
+					<Prod_id value="HE225DPB" />
+				</Rule>
+				<Rule ID="4927">
+					<Supplier ID="6712" />
+					<Prod_id value="HL225DBB" />
+				</Rule>
+				<Rule ID="4928">
+					<Supplier ID="6712" />
+					<Prod_id value="HL226HPB" />
+				</Rule>
+				<Rule ID="4929">
+					<Supplier ID="6712" />
+					<Prod_id value="HS221HPB" />
+				</Rule>
+				<Rule ID="4930">
+					<Supplier ID="6712" />
+					<Prod_id value="HL225PPB" />
+				</Rule>
+				<Rule ID="4931">
+					<Supplier ID="6712" />
+					<Prod_id value="HP227DJB" />
+				</Rule>
+				<Rule ID="4932">
+					<Supplier ID="6712" />
+					<Prod_id value="HE247DPB" />
+				</Rule>
+				<Rule ID="4933">
+					<Supplier ID="6712" />
+					<Prod_id value="HL247DBB" />
+				</Rule>
+				<Rule ID="4934">
+					<Supplier ID="6712" />
+					<Prod_id value="HL247HGB" />
+				</Rule>
+				<Rule ID="4935">
+					<Supplier ID="6712" />
+					<Prod_id value="HS245HPB" />
+				</Rule>
+				<Rule ID="4936">
+					<Supplier ID="6712" />
+					<Prod_id value="HP245HJB" />
+				</Rule>
+				<Rule ID="4937">
+					<Supplier ID="6712" />
+					<Prod_id value="HP247HJB" />
+				</Rule>
+				<Rule ID="4938">
+					<Supplier ID="6712" />
+					<Prod_id value="HP246PJB" />
+				</Rule>
+				<Rule ID="4939">
+					<Supplier ID="6712" />
+					<Prod_id value="HL274HPB" />
+				</Rule>
+				<Rule ID="4940">
+					<Supplier ID="6712" />
+					<Prod_id value="HS272HPB" />
+				</Rule>
+				<Rule ID="4941">
+					<Supplier ID="6712" />
+					<Prod_id value="HQ271HPG" />
+				</Rule>
+				<Rule ID="4942">
+					<Supplier ID="6712" />
+					<Prod_id value="HT231HPB" />
+				</Rule>
+				<Rule ID="4945">
+					<Supplier ID="6712" />
+					<Prod_id value="HU282PPS" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4969">
+					<Category ID="151" />
+					<Start_date value="2016-09-20" />
+					<End_date value="2017-09-20" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="739" name="PCs/workstations (DVI)">
+			<SourceIncludeRules>
+				<Rule ID="4918">
+					<Supplier ID="6712" />
+					<Prod_id value="HL205DPB" />
+				</Rule>
+				<Rule ID="4921">
+					<Supplier ID="6712" />
+					<Prod_id value="HL207DPB" />
+				</Rule>
+				<Rule ID="4922">
+					<Supplier ID="6712" />
+					<Prod_id value="HP195DCB" />
+				</Rule>
+				<Rule ID="4923">
+					<Supplier ID="6712" />
+					<Prod_id value="HP205DJB" />
+				</Rule>
+				<Rule ID="4924">
+					<Supplier ID="6712" />
+					<Prod_id value="HX194DPB" />
+				</Rule>
+				<Rule ID="4925">
+					<Supplier ID="6712" />
+					<Prod_id value="HP194DJB" />
+				</Rule>
+				<Rule ID="4926">
+					<Supplier ID="6712" />
+					<Prod_id value="HE225DPB" />
+				</Rule>
+				<Rule ID="4927">
+					<Supplier ID="6712" />
+					<Prod_id value="HL225DBB" />
+				</Rule>
+				<Rule ID="4928">
+					<Supplier ID="6712" />
+					<Prod_id value="HL226HPB" />
+				</Rule>
+				<Rule ID="4929">
+					<Supplier ID="6712" />
+					<Prod_id value="HS221HPB" />
+				</Rule>
+				<Rule ID="4930">
+					<Supplier ID="6712" />
+					<Prod_id value="HL225PPB" />
+				</Rule>
+				<Rule ID="4931">
+					<Supplier ID="6712" />
+					<Prod_id value="HP227DJB" />
+				</Rule>
+				<Rule ID="4932">
+					<Supplier ID="6712" />
+					<Prod_id value="HE247DPB" />
+				</Rule>
+				<Rule ID="4933">
+					<Supplier ID="6712" />
+					<Prod_id value="HL247DBB" />
+				</Rule>
+				<Rule ID="4934">
+					<Supplier ID="6712" />
+					<Prod_id value="HL247HGB" />
+				</Rule>
+				<Rule ID="4935">
+					<Supplier ID="6712" />
+					<Prod_id value="HS245HPB" />
+				</Rule>
+				<Rule ID="4936">
+					<Supplier ID="6712" />
+					<Prod_id value="HP245HJB" />
+				</Rule>
+				<Rule ID="4937">
+					<Supplier ID="6712" />
+					<Prod_id value="HP247HJB" />
+				</Rule>
+				<Rule ID="4938">
+					<Supplier ID="6712" />
+					<Prod_id value="HP246PJB" />
+				</Rule>
+				<Rule ID="4939">
+					<Supplier ID="6712" />
+					<Prod_id value="HL274HPB" />
+				</Rule>
+				<Rule ID="4940">
+					<Supplier ID="6712" />
+					<Prod_id value="HS272HPB" />
+				</Rule>
+				<Rule ID="4941">
+					<Supplier ID="6712" />
+					<Prod_id value="HQ271HPG" />
+				</Rule>
+				<Rule ID="4942">
+					<Supplier ID="6712" />
+					<Prod_id value="HT231HPB" />
+				</Rule>
+				<Rule ID="4945">
+					<Supplier ID="6712" />
+					<Prod_id value="HU282PPS" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4970">
+					<Category ID="153" />
+					<Start_date value="2016-09-20" />
+					<End_date value="2017-09-20" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="740" name="notebooks (HDMI)">
+			<SourceIncludeRules>
+				<Rule ID="4928">
+					<Supplier ID="6712" />
+					<Prod_id value="HL226HPB" />
+				</Rule>
+				<Rule ID="4929">
+					<Supplier ID="6712" />
+					<Prod_id value="HS221HPB" />
+				</Rule>
+				<Rule ID="4934">
+					<Supplier ID="6712" />
+					<Prod_id value="HL247HGB" />
+				</Rule>
+				<Rule ID="4935">
+					<Supplier ID="6712" />
+					<Prod_id value="HS245HPB" />
+				</Rule>
+				<Rule ID="4936">
+					<Supplier ID="6712" />
+					<Prod_id value="HP245HJB" />
+				</Rule>
+				<Rule ID="4937">
+					<Supplier ID="6712" />
+					<Prod_id value="HP247HJB" />
+				</Rule>
+				<Rule ID="4939">
+					<Supplier ID="6712" />
+					<Prod_id value="HL274HPB" />
+				</Rule>
+				<Rule ID="4940">
+					<Supplier ID="6712" />
+					<Prod_id value="HS272HPB" />
+				</Rule>
+				<Rule ID="4941">
+					<Supplier ID="6712" />
+					<Prod_id value="HQ271HPG" />
+				</Rule>
+				<Rule ID="4942">
+					<Supplier ID="6712" />
+					<Prod_id value="HT231HPB" />
+				</Rule>
+				<Rule ID="4943">
+					<Supplier ID="6712" />
+					<Prod_id value="HS243HPB" />
+				</Rule>
+				<Rule ID="4944">
+					<Supplier ID="6712" />
+					<Prod_id value="HS246HFW" />
+				</Rule>
+				<Rule ID="4945">
+					<Supplier ID="6712" />
+					<Prod_id value="HU282PPS" />
+				</Rule>
+				<Rule ID="4946">
+					<Supplier ID="6712" />
+					<Prod_id value="HT225HPB" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4965">
+					<Category ID="151" />
+					<Start_date value="2016-09-20" />
+					<End_date value="2017-09-20" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="741" name="PCs/workstations (HDMI)">
+			<SourceIncludeRules>
+				<Rule ID="4928">
+					<Supplier ID="6712" />
+					<Prod_id value="HL226HPB" />
+				</Rule>
+				<Rule ID="4929">
+					<Supplier ID="6712" />
+					<Prod_id value="HS221HPB" />
+				</Rule>
+				<Rule ID="4934">
+					<Supplier ID="6712" />
+					<Prod_id value="HL247HGB" />
+				</Rule>
+				<Rule ID="4935">
+					<Supplier ID="6712" />
+					<Prod_id value="HS245HPB" />
+				</Rule>
+				<Rule ID="4936">
+					<Supplier ID="6712" />
+					<Prod_id value="HP245HJB" />
+				</Rule>
+				<Rule ID="4937">
+					<Supplier ID="6712" />
+					<Prod_id value="HP247HJB" />
+				</Rule>
+				<Rule ID="4939">
+					<Supplier ID="6712" />
+					<Prod_id value="HL274HPB" />
+				</Rule>
+				<Rule ID="4940">
+					<Supplier ID="6712" />
+					<Prod_id value="HS272HPB" />
+				</Rule>
+				<Rule ID="4941">
+					<Supplier ID="6712" />
+					<Prod_id value="HQ271HPG" />
+				</Rule>
+				<Rule ID="4942">
+					<Supplier ID="6712" />
+					<Prod_id value="HT231HPB" />
+				</Rule>
+				<Rule ID="4943">
+					<Supplier ID="6712" />
+					<Prod_id value="HS243HPB" />
+				</Rule>
+				<Rule ID="4944">
+					<Supplier ID="6712" />
+					<Prod_id value="HS246HFW" />
+				</Rule>
+				<Rule ID="4945">
+					<Supplier ID="6712" />
+					<Prod_id value="HU282PPS" />
+				</Rule>
+				<Rule ID="4946">
+					<Supplier ID="6712" />
+					<Prod_id value="HT225HPB" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4966">
+					<Category ID="153" />
+					<Start_date value="2016-09-20" />
+					<End_date value="2017-09-20" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="742" name="notebooks (DisplayPort)">
+			<SourceIncludeRules>
+				<Rule ID="4938">
+					<Supplier ID="6712" />
+					<Prod_id value="HP246PJB" />
+				</Rule>
+				<Rule ID="4946">
+					<Supplier ID="6712" />
+					<Prod_id value="HT225HPB" />
+				</Rule>
+				<Rule ID="4949">
+					<Supplier ID="6712" />
+					<Prod_id value="HP225PJB" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4956">
+					<Category ID="151" />
+					<Start_date value="2016-09-20" />
+					<End_date value="2017-09-20" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="743" name="PCs/workstations (DisplayPort)">
+			<SourceIncludeRules>
+				<Rule ID="4938">
+					<Supplier ID="6712" />
+					<Prod_id value="HP246PJB" />
+				</Rule>
+				<Rule ID="4946">
+					<Supplier ID="6712" />
+					<Prod_id value="HT225HPB" />
+				</Rule>
+				<Rule ID="4949">
+					<Supplier ID="6712" />
+					<Prod_id value="HP225PJB" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="4967">
+					<Category ID="153" />
+					<Start_date value="2016-09-20" />
+					<End_date value="2017-09-20" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+	</RelationGroup>
+	<RelationGroup ID="79" name="Dyson" description="x-sells Dyson products">
+		<Relation ID="773" name="Stick Vacuums &amp; Electric Brooms (V6)">
+			<SourceIncludeRules>
+				<Rule ID="5093">
+					<Supplier ID="1001" />
+					<Prod_id value="918508-01" />
+				</Rule>
+				<Rule ID="5094">
+					<Supplier ID="1001" />
+					<Prod_id value="908887-02" />
+				</Rule>
+				<Rule ID="5095">
+					<Supplier ID="1001" />
+					<Prod_id value="913049-01" />
+				</Rule>
+				<Rule ID="5096">
+					<Supplier ID="1001" />
+					<Prod_id value="912700-01" />
+				</Rule>
+				<Rule ID="5097">
+					<Supplier ID="1001" />
+					<Prod_id value="916130-07" />
+				</Rule>
+				<Rule ID="5098">
+					<Supplier ID="1001" />
+					<Prod_id value="917627-01" />
+				</Rule>
+				<Rule ID="5099">
+					<Supplier ID="1001" />
+					<Prod_id value="908032-09" />
+				</Rule>
+				<Rule ID="5100">
+					<Supplier ID="1001" />
+					<Prod_id value="917633-01" />
+				</Rule>
+				<Rule ID="5101">
+					<Supplier ID="1001" />
+					<Prod_id value="912697-01" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5102">
+					<Supplier ID="1001" />
+					<Prod_id value="227433-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5103">
+					<Supplier ID="1001" />
+					<Prod_id value="215871-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5104">
+					<Supplier ID="1001" />
+					<Prod_id value="227480-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5105">
+					<Supplier ID="1001" />
+					<Prod_id value="211979-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5106">
+					<Supplier ID="1001" />
+					<Prod_id value="227488-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5107">
+					<Supplier ID="1001" />
+					<Prod_id value="216714-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5108">
+					<Supplier ID="1001" />
+					<Prod_id value="216713-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5109">
+					<Supplier ID="1001" />
+					<Prod_id value="205984-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5110">
+					<Supplier ID="1001" />
+					<Prod_id value="210673-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5111">
+					<Supplier ID="1001" />
+					<Prod_id value="209475-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5112">
+					<Supplier ID="1001" />
+					<Prod_id value="205983-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5113">
+					<Supplier ID="1001" />
+					<Prod_id value="210672-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5114">
+					<Supplier ID="1001" />
+					<Prod_id value="208177-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5115">
+					<Supplier ID="1001" />
+					<Prod_id value="204325-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5116">
+					<Supplier ID="1001" />
+					<Prod_id value="209472-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5117">
+					<Supplier ID="1001" />
+					<Prod_id value="V6ANIMAL" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5118">
+					<Supplier ID="1001" />
+					<Prod_id value="205968-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5119">
+					<Supplier ID="1001" />
+					<Prod_id value="208179-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5120">
+					<Supplier ID="1001" />
+					<Prod_id value="210691-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5121">
+					<Supplier ID="1001" />
+					<Prod_id value="209560-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5122">
+					<Supplier ID="1001" />
+					<Prod_id value="V6SLIM" />
+					<End_date value="2019-05-16" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="774" name="Stick Vacuums &amp; Electric Brooms (V7)">
+			<SourceIncludeRules>
+				<Rule ID="5096">
+					<Supplier ID="1001" />
+					<Prod_id value="912700-01" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5123">
+					<Supplier ID="1001" />
+					<Prod_id value="227608-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5124">
+					<Supplier ID="1001" />
+					<Prod_id value="227611-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5125">
+					<Supplier ID="1001" />
+					<Prod_id value="227607-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5126">
+					<Supplier ID="1001" />
+					<Prod_id value="248411-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5127">
+					<Supplier ID="1001" />
+					<Prod_id value="227610-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5128">
+					<Supplier ID="1001" />
+					<Prod_id value="227594-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+				<Rule ID="5129">
+					<Supplier ID="1001" />
+					<Prod_id value="227591-01" />
+					<End_date value="2019-05-16" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+	</RelationGroup>
+	<RelationGroup ID="80" name="HP (3 monitors)" description="x-sells HP monitors">
+		<Relation ID="775" name="PCs/Workstations">
+			<SourceIncludeRules>
+				<Rule ID="5130">
+					<Supplier ID="1" />
+					<Prod_id value="1FH46AT" />
+				</Rule>
+				<Rule ID="5131">
+					<Supplier ID="1" />
+					<Prod_id value="1FH47AT" />
+				</Rule>
+				<Rule ID="5132">
+					<Supplier ID="1" />
+					<Prod_id value="1FH49AT" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5140">
+					<Supplier ID="1" />
+					<Category ID="153" />
+					<Start_date value="2017-08-20" />
+					<End_date value="2019-08-20" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+		<Relation ID="776" name="Notebooks">
+			<SourceIncludeRules>
+				<Rule ID="5130">
+					<Supplier ID="1" />
+					<Prod_id value="1FH46AT" />
+				</Rule>
+				<Rule ID="5131">
+					<Supplier ID="1" />
+					<Prod_id value="1FH47AT" />
+				</Rule>
+				<Rule ID="5132">
+					<Supplier ID="1" />
+					<Prod_id value="1FH49AT" />
+				</Rule>
+			</SourceIncludeRules>
+			<DestinationIncludeRules>
+				<Rule ID="5137">
+					<Supplier ID="1" />
+					<Category ID="151" />
+					<Start_date value="2017-08-20" />
+					<End_date value="2019-08-20" />
+				</Rule>
+			</DestinationIncludeRules>
+		</Relation>
+	</RelationGroup>
+</ICECAT-interface>
