@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ICECAT-interface SYSTEM "http://data.icecat.biz/dtd/ICECAT-relations.dtd">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE ICECAT-interface SYSTEM "http://data.icecat.biz/dtd/ICECAT-relations.dtd">-->
 <!-- source: Icecat.biz 2019 -->
 <ICECAT-interface>
-	<RelationGroup ID="1" name="Individual relation" description="The general group">
-	</RelationGroup>
+	<RelationGroup ID="1" name="Individual relation" description="The general group"></RelationGroup>
 	<RelationGroup ID="22" name="CaseLogic" description="x-sells CaseLogic products">
 		<Relation ID="216" name="notebooks (15.4&quot;)">
 			<SourceIncludeRules>
