@@ -45,33 +45,9 @@ public class XMLReader {
                                + relElement.getAttribute("ID"));
                        System.out.println("name : "
                                + relElement.getAttribute("name"));
-                       NodeList srcList = relElement.getElementsByTagName("SourceIncludeRules");
-                       for (int temp3 = 0; temp3 < srcList.getLength(); temp3++) {
-                           Node srcNode = srcList.item(temp3);
-                           System.out.println("\nCurrent Element :" + srcNode.getNodeName());
-                           if (srcNode.getNodeType() == Node.ELEMENT_NODE) {
-                               Element srcElement = (Element) srcNode;
-                               processRules(srcElement);
-                           }
-                       }
-                       NodeList destList = relElement.getElementsByTagName("DestinationIncludeRules");
-                       for (int temp7 = 0; temp7 < destList.getLength(); temp7++) {
-                           Node destNode = destList.item(temp7);
-                           System.out.println("\nCurrent Element :" + destNode.getNodeName());
-                           if (destNode.getNodeType() == Node.ELEMENT_NODE) {
-                               Element destElement = (Element) destNode;
-                               processRules(destElement);
-                           }
-                       }
-                       NodeList destExList = relElement.getElementsByTagName("DestinationExcludeRules");
-                       for (int tempB = 0; tempB < destExList.getLength(); tempB++) {
-                           Node destExNode = destExList.item(tempB);
-                           System.out.println("\nCurrent Element :" + destExNode.getNodeName());
-                           if (destExNode.getNodeType() == Node.ELEMENT_NODE) {
-                               Element destExElement = (Element) destExNode;
-                               processRules(destExElement);
-                           }
-                       }
+                       processRulesTag(relElement,"SourceIncludeRules");
+                       processRulesTag(relElement,"DestinationIncludeRules");
+                       processRulesTag(relElement,"DestinationExludeRules");
                    }
                }
             }
@@ -80,6 +56,17 @@ public class XMLReader {
          e.printStackTrace();
       }
    }
+    private static void processRulesTag(Element relElement, String rulesTag) {
+        NodeList srcList = relElement.getElementsByTagName(rulesTag);
+        for (int temp3 = 0; temp3 < srcList.getLength(); temp3++) {
+            Node srcNode = srcList.item(temp3);
+            System.out.println("\nCurrent Element :" + srcNode.getNodeName());
+            if (srcNode.getNodeType() == Node.ELEMENT_NODE) {
+                Element srcElement = (Element) srcNode;
+                processRules(srcElement);
+            }
+        }
+    }
     private static void processRules(Element inElement){
         NodeList inRuleList = inElement.getElementsByTagName("Rule");
         for (int temp = 0; temp < inRuleList.getLength(); temp++) {
@@ -129,6 +116,36 @@ public class XMLReader {
                                 + prodElement.getAttribute("ID"));
                         System.out.println("Feature exact: "
                                 + prodElement.getAttribute("exact"));
+                    }
+                }
+                NodeList startDateList = inRuleElement.getElementsByTagName("Start_date");
+                for (int temp1 = 0; temp1 < startDateList.getLength(); temp1++) {
+                    Node startDateNode = startDateList.item(temp1);
+                    System.out.println("\nCurrent Element :" + startDateNode.getNodeName());
+                    if (startDateNode.getNodeType() == Node.ELEMENT_NODE) {
+                        Element prodElement = (Element) startDateNode;
+                        System.out.println("Start Date: "
+                                + prodElement.getAttribute("value"));
+                    }
+                }
+                NodeList endDateList = inRuleElement.getElementsByTagName("End_date");
+                for (int temp1 = 0; temp1 < endDateList.getLength(); temp1++) {
+                    Node endDateNode = endDateList.item(temp1);
+                    System.out.println("\nCurrent Element :" + endDateNode.getNodeName());
+                    if (endDateNode.getNodeType() == Node.ELEMENT_NODE) {
+                        Element prodElement = (Element) endDateNode;
+                        System.out.println("End Date: "
+                                + prodElement.getAttribute("value"));
+                    }
+                }
+                NodeList supplierFamilyList = inRuleElement.getElementsByTagName("SupplierFamily");
+                for (int temp2 = 0; temp2 < supplierFamilyList.getLength(); temp2++) {
+                    Node supplierFamilyNode = supplierFamilyList.item(temp2);
+                    System.out.println("\nCurrent Element :" + supplierFamilyNode.getNodeName());
+                    if (supplierFamilyNode.getNodeType() == Node.ELEMENT_NODE) {
+                        Element supplierElement = (Element) supplierFamilyNode;
+                        System.out.println("Supplier Family ID: "
+                                + supplierElement.getAttribute("ID"));
                     }
                 }
             }
