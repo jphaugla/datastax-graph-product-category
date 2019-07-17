@@ -1,4 +1,4 @@
-package com.datastax.prodcat;
+package com.datastax.prodcat.supplier;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

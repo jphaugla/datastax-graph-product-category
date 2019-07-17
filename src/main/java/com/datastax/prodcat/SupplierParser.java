@@ -1,11 +1,8 @@
 package com.datastax.prodcat;
 
-import com.fasterxml.jackson.databind.MappingIterator;
-import com.fasterxml.jackson.dataformat.csv.CsvMapper;
-import com.fasterxml.jackson.dataformat.csv.CsvSchema;
+import com.datastax.prodcat.supplier.IcecatInterface;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-import javax.xml.bind.annotation.XmlSchema;
 import java.io.File;
 import java.io.IOException;
 

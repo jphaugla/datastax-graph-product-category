@@ -1,4 +1,4 @@
-package com.datastax.prodcat;
+package com.datastax.prodcat.product;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
