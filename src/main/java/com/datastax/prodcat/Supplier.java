@@ -36,7 +36,7 @@ public class Supplier {
     @JsonProperty("LogoMediumPic")
     private String logoMediumPic;
 
-    @JsonProperty("LogoMediumHeight")
+    @JsonProperty("LogoMediumPicHeight")
     private int logoMediumPicHeight;
 
     @JsonProperty("LogoMediumPicWidth")
@@ -71,4 +71,7 @@ public class Supplier {
 
     @JsonProperty("Names")
     private List<SupplierName> names;
+
+    @JsonProperty("CustomerService")
+    private CustomerService customerService;
 }

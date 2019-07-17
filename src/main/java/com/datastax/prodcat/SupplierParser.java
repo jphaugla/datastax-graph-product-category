@@ -17,9 +17,16 @@ public class SupplierParser {
         File suppliersList = new File("src/main/data/SuppliersList.xml");
         XmlMapper xmlMapper = new XmlMapper();
 
-        IcecatInterface value = xmlMapper.readValue(suppliersList, IcecatInterface.class);
+        try {
+            IcecatInterface value = xmlMapper.readValue(suppliersList, IcecatInterface.class);
+            System.out.println(value);
 
-        System.out.println(value);
+            // TODO: Write async to DSE
+
+        } catch(Exception ex) {
+            System.out.println(ex);
+        }
+
 
 
 
