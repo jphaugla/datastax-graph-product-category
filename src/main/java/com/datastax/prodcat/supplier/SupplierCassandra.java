@@ -1,85 +1,78 @@
 package com.datastax.prodcat.supplier;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import com.datastax.driver.mapping.annotations.*;
+
+import com.datastax.driver.mapping.annotations.Column;
+import com.datastax.driver.mapping.annotations.PartitionKey;
+import com.datastax.driver.mapping.annotations.Table;
+
 
 import java.util.List;
 
-public class Supplier {
+@Table(keyspace = "prodcat", name = "supplier")
+public class SupplierCassandra {
 
-    @JsonProperty("ID")
-    private String id;
+    private String path;
+    @PartitionKey
+    private int id;
 
-    @JsonProperty("LogoPic")
     private String logoPic;
 
-    @JsonProperty("LogoPicHeight")
     private int logoPicHeight;
 
-    @JsonProperty("LogoPicWidth")
     private int logoPicWidth;
 
-    @JsonProperty("LogoPicSize")
     private int logoPicSize;
 
-    @JsonProperty("LogoLowPic")
     private String logoLowPic;
 
-    @JsonProperty("LogoLowPicHeight")
     private int logoLowPicHeight;
 
-    @JsonProperty("LogoLowPicWidth")
     private int logoLowPicWidth;
 
-    @JsonProperty("LogoLowSize")
     private int LogoLowSize;
 
-    @JsonProperty("LogoMediumPic")
     private String logoMediumPic;
 
-    @JsonProperty("LogoMediumPicHeight")
     private int logoMediumPicHeight;
 
-    @JsonProperty("LogoMediumPicWidth")
     private int logoMediumPicWidth;
 
-    @JsonProperty("LogoMediumPicSize")
     private int logoMediumPicSize;
 
-    @JsonProperty("LogoHighPic")
     private String logoHighPic;
 
-    @JsonProperty("LogoHighPicHeight")
     private int logoHighPicHeight;
 
-    @JsonProperty("LogoHighPicWidth")
     private int logoHighPicWidth;
 
-    @JsonProperty("LogoHighPicSize")
     private int logoHighPicSize;
 
-    @JsonProperty("LogoOriginal")
     private String logoOriginal;
 
-    @JsonProperty("LogoOriginalSize")
     private int logoOriginalSize;
 
-    @JsonProperty("Name")
     private String name;
 
-    @JsonProperty("Sponsor")
     private String sponsor;
 
-    @JsonProperty("Names")
     private List<SupplierName> names;
 
-    @JsonProperty("CustomerService")
     private CustomerService customerService;
 
-    public String getId() {
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
+
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

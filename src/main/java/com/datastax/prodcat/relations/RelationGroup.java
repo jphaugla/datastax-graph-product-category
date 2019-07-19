@@ -24,4 +24,5 @@ public class RelationGroup {
     @JacksonXmlElementWrapper(useWrapping = false)
     private List<Relation> relations;
 
+
 }

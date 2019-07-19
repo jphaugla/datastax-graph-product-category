@@ -17,7 +17,7 @@ public class RelationsParser {
 
         RelationIcecatInterface value = xmlMapper.readValue(relationsList, RelationIcecatInterface.class);
         System.out.println(value);
-
+        System.out.println("hello here");
 
 
 
