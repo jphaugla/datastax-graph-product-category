@@ -27,6 +27,7 @@ public class ProductParser {
         CsvMapper mapper = new CsvMapper();
         CsvSchema schema = mapper.schemaFor(Product.class)
                 .withHeader()
+                .withoutQuoteChar()
                 .withColumnSeparator('\t');
 
         File csvFile = new File("src/main/data/files.index.csv"); // or from String, URL etc
