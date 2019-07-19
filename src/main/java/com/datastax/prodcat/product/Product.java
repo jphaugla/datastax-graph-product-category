@@ -34,7 +34,7 @@ public class Product {
     private String path;
 
     @JsonProperty("product_id")
-    private String productId;
+    private int productId;
 
     @JsonProperty("updated")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyyMMddHHmmss")
@@ -44,13 +44,13 @@ public class Product {
     private String quality;
 
     @JsonProperty("supplier_id")
-    private String supplierId;
+    private int supplierId;
 
     @JsonProperty("prod_id")
     private String prodId;
 
     @JsonProperty("catid")
-    private String catId;
+    private int catId;
 
     @JsonProperty("m_prod_id")
     private String mProdId;
@@ -59,7 +59,7 @@ public class Product {
     private String eanUpc;
 
     @JsonProperty("on_market")
-    private String onMarket;
+    private int onMarket;
 
     @JsonProperty("country_market")
     private String countryMarket;
@@ -68,22 +68,22 @@ public class Product {
     private String modelName;
 
     @JsonProperty("product_view")
-    private String productView;
+    private int productView;
 
     @JsonProperty("high_pic")
     private String highPic;
 
     @JsonProperty("high_pic_size")
-    private String highPicSize;
+    private int highPicSize;
 
     @JsonProperty("high_pic_width")
-    private String highPicWidth;
+    private int highPicWidth;
 
     @JsonProperty("high_pic_height")
-    private String highPicHeight;
+    private int highPicHeight;
 
     @JsonProperty("m_supplier_id")
-    private String mSupplierId;
+    private int mSupplierId;
 
     @JsonProperty("m_supplier_name")
     private String mSupplierName;
@@ -106,11 +106,11 @@ public class Product {
         this.path = path;
     }
 
-    public String getProductId() {
+    public int getProductId() {
         return productId;
     }
 
-    public void setProductId(String productId) {
+    public void setProductId(int productId) {
         this.productId = productId;
     }
 
@@ -130,11 +130,11 @@ public class Product {
         this.quality = quality;
     }
 
-    public String getSupplierId() {
+    public int getSupplierId() {
         return supplierId;
     }
 
-    public void setSupplierId(String supplierId) {
+    public void setSupplierId(int supplierId) {
         this.supplierId = supplierId;
     }
 
@@ -146,11 +146,11 @@ public class Product {
         this.prodId = prodId;
     }
 
-    public String getCatId() {
+    public int getCatId() {
         return catId;
     }
 
-    public void setCatId(String catId) {
+    public void setCatId(int catId) {
         this.catId = catId;
     }
 
@@ -170,11 +170,11 @@ public class Product {
         this.eanUpc = eanUpc;
     }
 
-    public String getOnMarket() {
+    public int getOnMarket() {
         return onMarket;
     }
 
-    public void setOnMarket(String onMarket) {
+    public void setOnMarket(int onMarket) {
         this.onMarket = onMarket;
     }
 
@@ -194,11 +194,11 @@ public class Product {
         this.modelName = modelName;
     }
 
-    public String getProductView() {
+    public int getProductView() {
         return productView;
     }
 
-    public void setProductView(String productView) {
+    public void setProductView(int productView) {
         this.productView = productView;
     }
 
@@ -210,35 +210,35 @@ public class Product {
         this.highPic = highPic;
     }
 
-    public String getHighPicSize() {
+    public int getHighPicSize() {
         return highPicSize;
     }
 
-    public void setHighPicSize(String highPicSize) {
+    public void setHighPicSize(int highPicSize) {
         this.highPicSize = highPicSize;
     }
 
-    public String getHighPicWidth() {
+    public int getHighPicWidth() {
         return highPicWidth;
     }
 
-    public void setHighPicWidth(String highPicWidth) {
+    public void setHighPicWidth(int highPicWidth) {
         this.highPicWidth = highPicWidth;
     }
 
-    public String getHighPicHeight() {
+    public int getHighPicHeight() {
         return highPicHeight;
     }
 
-    public void setHighPicHeight(String highPicHeight) {
+    public void setHighPicHeight(int highPicHeight) {
         this.highPicHeight = highPicHeight;
     }
 
-    public String getmSupplierId() {
+    public int getmSupplierId() {
         return mSupplierId;
     }
 
-    public void setmSupplierId(String mSupplierId) {
+    public void setmSupplierId(int mSupplierId) {
         this.mSupplierId = mSupplierId;
     }
 
