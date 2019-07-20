@@ -20,6 +20,11 @@
 			<version>${dse.driver.version}</version>
 		</dependency>
 		<dependency>
+			<groupId>com.datastax.dse</groupId>
+			<artifactId>dse-java-driver-mapping</artifactId>
+			<version>${dse.driver.version}</version>
+		</dependency>
+		<dependency>
 			<groupId>joda-time</groupId>
 			<artifactId>joda-time</artifactId>
 			<version>2.3</version>
