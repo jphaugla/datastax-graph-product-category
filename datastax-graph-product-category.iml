@@ -30,6 +30,7 @@
     <orderEntry type="library" name="Maven: com.github.jnr:jnr-x86asm:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: com.github.jnr:jnr-posix:3.0.44" level="project" />
     <orderEntry type="library" name="Maven: com.github.jnr:jnr-constants:0.9.9" level="project" />
+    <orderEntry type="library" name="Maven: com.datastax.dse:dse-java-driver-mapping:1.8.2" level="project" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.3" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.8.8" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.8" level="project" />

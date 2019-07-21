@@ -16,4 +16,11 @@ public class RelationIcecatInterface {
     @JacksonXmlElementWrapper(useWrapping = false)
     private List<RelationGroup> RelationGroup;
 
+    public List<com.datastax.prodcat.relations.RelationGroup> getRelationGroup() {
+        return RelationGroup;
+    }
+
+    public void setRelationGroup(List<com.datastax.prodcat.relations.RelationGroup> relationGroup) {
+        RelationGroup = relationGroup;
+    }
 }

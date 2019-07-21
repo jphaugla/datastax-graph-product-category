@@ -23,4 +23,44 @@ public class SupplierResponse {
 
     @JsonProperty("SuppliersList")
     private List<Supplier> suppliersList;
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getRequestId() {
+        return requestId;
+    }
+
+    public void setRequestId(String requestId) {
+        this.requestId = requestId;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    public List<Supplier> getSuppliersList() {
+        return suppliersList;
+    }
+
+    public void setSuppliersList(List<Supplier> suppliersList) {
+        this.suppliersList = suppliersList;
+    }
 }

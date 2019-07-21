@@ -5,6 +5,7 @@ import com.datastax.driver.core.Session;
 import com.datastax.driver.mapping.Mapper;
 import com.datastax.driver.mapping.MappingManager;
 import com.datastax.prodcat.product.ProductCassandra;
+import com.google.common.util.concurrent.ListenableFuture;
 
 import static com.datastax.driver.mapping.Mapper.Option.saveNullFields;
 
@@ -19,8 +20,8 @@ public class ProductDao {
         productMapper.setDefaultSaveOptions(saveNullFields(false));
     }
 
-     public void insertProductAsync(ProductCassandra productCassandra) {
-        productMapper.save(productCassandra);
+     public ListenableFuture insertProductAsync(ProductCassandra productCassandra) {
+        return productMapper.saveAsync(productCassandra);
      }
 
 }

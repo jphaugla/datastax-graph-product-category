@@ -28,4 +28,43 @@ public class Relation {
     @JacksonXmlElementWrapper(useWrapping = false)
     private DestinationExcludeRules destinationExcludeRules;
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public SourceIncludeRules getSourceIncludeRules() {
+        return sourceIncludeRules;
+    }
+
+    public void setSourceIncludeRules(SourceIncludeRules sourceIncludeRules) {
+        this.sourceIncludeRules = sourceIncludeRules;
+    }
+
+    public DestinationIncludeRules getDestinationIncludeRules() {
+        return destinationIncludeRules;
+    }
+
+    public void setDestinationIncludeRules(DestinationIncludeRules destinationIncludeRules) {
+        this.destinationIncludeRules = destinationIncludeRules;
+    }
+
+    public DestinationExcludeRules getDestinationExcludeRules() {
+        return destinationExcludeRules;
+    }
+
+    public void setDestinationExcludeRules(DestinationExcludeRules destinationExcludeRules) {
+        this.destinationExcludeRules = destinationExcludeRules;
+    }
 }

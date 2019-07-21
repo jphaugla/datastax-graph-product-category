@@ -7,7 +7,7 @@ import java.util.List;
 public class Supplier {
 
     @JsonProperty("ID")
-    private String id;
+    private int id;
 
     @JsonProperty("LogoPic")
     private String logoPic;
@@ -75,11 +75,11 @@ public class Supplier {
     @JsonProperty("CustomerService")
     private CustomerService customerService;
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

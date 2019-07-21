@@ -13,6 +13,7 @@ import java.util.List;
 public class SupplierCassandra {
 
     private String path;
+
     @PartitionKey
     private int id;
 
@@ -58,7 +59,9 @@ public class SupplierCassandra {
 
     private List<SupplierName> names;
 
-    private CustomerService customerService;
+//    private CustomerService customerService;
+
+
 
     public String getPath() {
         return path;
@@ -244,11 +247,11 @@ public class SupplierCassandra {
         this.names = names;
     }
 
-    public CustomerService getCustomerService() {
-        return customerService;
-    }
-
-    public void setCustomerService(CustomerService customerService) {
-        this.customerService = customerService;
-    }
+//    public CustomerService getCustomerService() {
+//        return customerService;
+//    }
+//
+//    public void setCustomerService(CustomerService customerService) {
+//        this.customerService = customerService;
+//    }
 }
