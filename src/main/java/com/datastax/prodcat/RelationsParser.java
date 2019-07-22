@@ -45,6 +45,7 @@ public class RelationsParser {
 
         HashMap<String, List<Product>> productCategories = new HashMap<>();
 
+
         // Group products by category id
         for(final Product product : products.readAll()) {
             if(productCategories.containsKey(Integer.toString(product.getCatId()))){
@@ -75,11 +76,14 @@ public class RelationsParser {
                                 // the products specified as SourceInclude Rules
                                 for(Rule source : relation.getSourceIncludeRules().getRules()) {
                                     for(Product destination : destinationProducts) {
-                                        ProductCrossSell productCrossSell = new ProductCrossSell();
-                                        productCrossSell.setSourceProductId(source.getProductId().getValue());
-                                        productCrossSell.setCrossSellProductId(Integer.toString(destination.getProductId()));
+//                                        if(productLookUp.containsKey(source.getProductId().getValue()) &&
+//                                                productLookUp.containsKey(destination.getProductId())){
+                                            ProductCrossSell productCrossSell = new ProductCrossSell();
+                                            productCrossSell.setSourceProductId(source.getProductId().getValue());
+                                            productCrossSell.setCrossSellProductId(destination.getProdId());
 
-                                        productCrossSellList.add(productCrossSell);
+                                            productCrossSellList.add(productCrossSell);
+//                                        }
                                     }
                                 }
                             }

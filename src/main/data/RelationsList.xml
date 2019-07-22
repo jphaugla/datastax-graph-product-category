@@ -243,7 +243,7 @@
 				<Rule ID="4989">
 					<Supplier ID="148" />
 					<Prod_id value="CSIE2144K" />
-				</Rule>
+				</Rule>.outE()
 				<Rule ID="4990">
 					<Supplier ID="148" />
 					<Prod_id value="CSIE2144CON" />

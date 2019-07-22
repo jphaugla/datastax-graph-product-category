@@ -1,7 +1,5 @@
-create keyspace if not exists prodcat WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
-
 create table if not exists prodcat.product(path text,
-	product_id int,
+	product_id text,
 	updated timestamp,
 	quality text,
  	supplier_id int,
@@ -18,7 +16,7 @@ create table if not exists prodcat.product(path text,
 	high_pic_width int,
 	high_pic_height int,
 	m_supplier_id int,
-	m_supplier_name text, 
+	m_supplier_name text,
 	ean_upc_is_approved list<text>,
 	limited text,
 	date_added timestamp,

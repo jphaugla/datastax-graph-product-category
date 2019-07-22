@@ -34,7 +34,7 @@ public class Product {
     private String path;
 
     @JsonProperty("product_id")
-    private int productId;
+    private String productId;
 
     @JsonProperty("updated")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyyMMddHHmmss")
@@ -106,11 +106,11 @@ public class Product {
         this.path = path;
     }
 
-    public int getProductId() {
+    public String getProductId() {
         return productId;
     }
 
-    public void setProductId(int productId) {
+    public void setProductId(String productId) {
         this.productId = productId;
     }
 

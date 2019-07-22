@@ -11,7 +11,7 @@ public class ProductCassandra {
     private String path;
     @PartitionKey
     @Column(name="product_id")
-    private int product_id;
+    private String product_id;
     private Date updated;
     private String quality;
     private int supplier_id;
@@ -194,11 +194,11 @@ public class ProductCassandra {
     private String Limited;
     private Date Date_Added;
 
-    public int getProduct_id() {
+    public String getProduct_id() {
         return product_id;
     }
 
-    public void setProduct_id(int product_id) {
+    public void setProduct_id(String product_id) {
         this.product_id = product_id;
     }
 
