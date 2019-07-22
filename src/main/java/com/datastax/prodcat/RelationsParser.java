@@ -34,6 +34,7 @@ public class RelationsParser {
 
         HashMap<String, List<Product>> productCategories = new HashMap<>();
 
+        // Group products by category id
         for(final Product product : products.readAll()) {
             if(productCategories.containsKey(Integer.toString(product.getCatId()))){
                 productCategories.get(Integer.toString(product.getCatId())).add(product);
@@ -46,16 +47,21 @@ public class RelationsParser {
 
         List<ProductCrossSell> productCrossSellList = new ArrayList<>();
 
+        // For each relation group
         for(RelationGroup relationGroup : relations.getRelationGroup()){
             if(relationGroup.getRelations() != null) {
+                // For all the relations in the group
                 for(Relation relation : relationGroup.getRelations()) {
                     if (relation.getDestinationIncludeRules() != null) {
+                        // Determine the category of products that this rule applies to
                         List<Rule> destinationRules = relation.getDestinationIncludeRules().getRules();
                         if (destinationRules.size() > 0 && destinationRules.get(0).getCategory() != null){
                             String category = destinationRules.get(0).getCategory().getValue();
                             List<Product> destinationProducts = productCategories.get(category);
-
+                            // Look up the products in the specified category
                             if (destinationProducts != null) {
+                                // Generate the combination of products in the specified category and
+                                // the products specified as SourceInclude Rules
                                 for(Rule source : relation.getSourceIncludeRules().getRules()) {
                                     for(Product destination : destinationProducts) {
                                         ProductCrossSell productCrossSell = new ProductCrossSell();

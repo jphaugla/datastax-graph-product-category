@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c00e392-0bea-4d5f-b425-0be224c628cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/datastax/prodcat/RelationsParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/datastax/prodcat/RelationsParser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,8 +92,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/datastax/prodcat/RelationsParser.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="241">
-                  <caret line="38" column="74" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
+                <state relative-caret-position="256">
+                  <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -118,7 +117,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/data/RelationsList.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-9842">
+                <state relative-caret-position="-720">
                   <caret line="6" column="57" lean-forward="true" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
                   <folding>
                     <element signature="n#RelationGroup#2;n#ICECAT-interface#0;n#!!top" />
@@ -401,12 +400,12 @@
       <workItem from="1563368728532" duration="3654000" />
       <workItem from="1563388465978" duration="10429000" />
       <workItem from="1563657027867" duration="11639000" />
-      <workItem from="1563801638068" duration="605000" />
+      <workItem from="1563801638068" duration="1116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33431000" />
+    <option name="totallyTimeSpent" value="33942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1371" extended-state="6" />
@@ -422,14 +421,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40031275" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40031275" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32838154" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32838154" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32845894" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -452,21 +451,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/datastax/prodcat/RelationsParser.java</url>
-          <line>75</line>
+          <line>81</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/datastax/prodcat/RelationsParser.java</url>
-          <line>46</line>
+          <line>47</line>
           <properties />
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/datastax/prodcat/RelationsParser.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -996,8 +989,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/datastax/prodcat/RelationsParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="38" column="74" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
+        <state relative-caret-position="256">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
