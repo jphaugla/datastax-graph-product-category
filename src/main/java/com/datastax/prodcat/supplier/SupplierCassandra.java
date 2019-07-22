@@ -12,8 +12,6 @@ import java.util.List;
 @Table(keyspace = "prodcat", name = "supplier")
 public class SupplierCassandra {
 
-    private String path;
-
     @PartitionKey
     private int id;
 
@@ -57,19 +55,11 @@ public class SupplierCassandra {
 
     private String sponsor;
 
-    private List<SupplierName> names;
+//    private List<SupplierName> names;
 
 //    private CustomerService customerService;
 
 
-
-    public String getPath() {
-        return path;
-    }
-
-    public void setPath(String path) {
-        this.path = path;
-    }
 
     public int getId() {
         return id;
@@ -239,13 +229,13 @@ public class SupplierCassandra {
         this.sponsor = sponsor;
     }
 
-    public List<SupplierName> getNames() {
-        return names;
-    }
-
-    public void setNames(List<SupplierName> names) {
-        this.names = names;
-    }
+//    public List<SupplierName> getNames() {
+//        return names;
+//    }
+//
+//    public void setNames(List<SupplierName> names) {
+//        this.names = names;
+//    }
 
 //    public CustomerService getCustomerService() {
 //        return customerService;

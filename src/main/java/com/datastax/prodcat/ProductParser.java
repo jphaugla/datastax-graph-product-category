@@ -13,6 +13,9 @@ import java.io.File;
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.util.*;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 
 public class ProductParser {
@@ -21,9 +24,9 @@ public class ProductParser {
         return arrayList;
     }
 
-    public static void  main(String[] args) throws IOException, InterruptedException {
+    public static void  main(String[] args) throws IOException, TimeoutException, ExecutionException, InterruptedException {
 
-        String[] contactPts = {"jphmac","127.0.0.1"};
+        String[] contactPts = {"127.0.0.1"};
         ProductDao dao = new ProductDao(contactPts);
 
         CsvMapper mapper = new CsvMapper();
@@ -38,7 +41,9 @@ public class ProductParser {
 
         Queue<ListenableFuture> requestQueue = new LinkedList<>();
         int rateLimit = 200;
+        int rowCount = 0;
 
+        long before = System.currentTimeMillis();
         while (it.hasNext()) {
             Product row = it.next();
             ProductCassandra product = new ProductCassandra();
@@ -79,17 +84,28 @@ public class ProductParser {
 
             if (requestQueue.size() >= rateLimit) {
                 ListenableFuture<ResultSet> future = requestQueue.remove();
-                future.wait();
+                future.get(10, TimeUnit.SECONDS);
+
             }
 
             ListenableFuture<ResultSet> requestFuture = dao.insertProductAsync(product);
             requestQueue.add(requestFuture);
+
+            rowCount++;
         }
 
-        while(requestQueue.size() >= 0) {
+        while(requestQueue.size() > 0) {
             ListenableFuture<Result> future = requestQueue.remove();
-            future.wait();
+            future.get(10, TimeUnit.SECONDS);
+
         }
+
+        long after = System.currentTimeMillis();
+
+
+        System.out.println(rowCount + " Rows Written in " + (after - before)  + "ms");
+
+
     }
 }
 

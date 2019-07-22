@@ -15,13 +15,15 @@ import java.io.IOException;
 import java.sql.ResultSet;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 public class SupplierParser {
 
-    public static void main(String[] args) throws IOException, InterruptedException {
-        String[] contactPts = {"jphmac","127.0.0.1"};
+    public static void main(String[] args) throws IOException, InterruptedException, TimeoutException, ExecutionException {
+        String[] contactPts = {"127.0.0.1"};
         SupplierDao dao = new SupplierDao(contactPts);
-        SupplierCassandra supplierCassandra= new SupplierCassandra();
 
         File suppliersList = new File("src/main/data/SuppliersList.xml");
         XmlMapper xmlMapper = new XmlMapper();
@@ -31,6 +33,7 @@ public class SupplierParser {
         Queue<ListenableFuture> requestQueue = new LinkedList<>();
         int rateLimit = 200;
 
+        long before = System.currentTimeMillis();
 
         for (Supplier row : suppliers.getResponse().getSuppliersList()){
             SupplierCassandra supplier = new SupplierCassandra();
@@ -62,22 +65,28 @@ public class SupplierParser {
 
             supplier.setName(row.getName());
             supplier.setSponsor(row.getSponsor());
-            supplier.setNames(row.getNames());
+//            supplier.setNames(row.getNames());
 
             if (requestQueue.size() >= rateLimit) {
-                ListenableFuture future = requestQueue.remove();
-                future.wait();
+                ListenableFuture<ResultSet> future = requestQueue.remove();
+                future.get(10, TimeUnit.SECONDS);
+
             }
 
-            ListenableFuture requestFuture = dao.insertSupplierAsync(supplier);
+            ListenableFuture<ResultSet> requestFuture = dao.insertSupplierAsync(supplier);
             requestQueue.add(requestFuture);
+        }
+
+        while(requestQueue.size() > 0) {
+            ListenableFuture<Result> future = requestQueue.remove();
+            future.get(10, TimeUnit.SECONDS);
 
         }
 
-        while(requestQueue.size() >= 0) {
-            ListenableFuture future = requestQueue.remove();
-            future.wait();
-        }
+        long after = System.currentTimeMillis();
+
+
+        System.out.println(suppliers.getResponse().getSuppliersList().size() + " Rows Written in " + (after - before)  + "ms");
 
 
     }

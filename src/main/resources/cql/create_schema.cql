@@ -22,31 +22,32 @@ create table if not exists prodcat.product(path text,
 	ean_upc_is_approved list<text>,
 	limited text,
 	date_added timestamp,
-	PRIMARY KEY(product_id)
+	PRIMARY KEY(prod_id)
 ) WITH compaction= { 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy' }
   AND compression = {'sstable_compression' : ''}
-  AND caching = {'keys':'NONE', 'rows_per_partition':'NONE'};
+  AND caching = {'keys':'NONE', 'rows_per_partition':'NONE'}
+  AND VERTEX LABEL product;
 
 
 create table if not exists prodcat.supplier(
 	id int,
 
-	logoPic int,
+	logoPic text,
     logoPicHeight int,
 	logoPicWidth int,
 	logoPicSize int,
 
-	logoLowPic int,
+	logoLowPic text,
     logoLowPicHeight int,
 	logoLowPicWidth int,
 	LogoLowSize int,
 
-    logoMediumPic int,
+    logoMediumPic text,
     logoMediumPicHeight int,
 	logoMediumPicWidth int,
 	logoMediumPicSize int,
 
-    logoHighPic int,
+    logoHighPic text,
     logoHighPicHeight int,
 	logoHighPicWidth int,
 	logoHighPicSize int,
@@ -55,16 +56,18 @@ create table if not exists prodcat.supplier(
 	logoOriginalSize int,
 
 	name text,
-	sponsor text
+	sponsor text,
 	PRIMARY KEY(id)
 ) WITH compaction= { 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy' }
   AND compression = {'sstable_compression' : ''}
-  AND caching = {'keys':'NONE', 'rows_per_partition':'NONE'};
+  AND caching = {'keys':'NONE', 'rows_per_partition':'NONE'}
+  AND VERTEX LABEL supplier;
 
 create table if not exists prodcat.product_cross_sell(
-	source_product_id int,
-	cross_sell_product_id int,
+	source_product_id text,
+	cross_sell_product_id text,
 	PRIMARY KEY(source_product_id, cross_sell_product_id)
 ) WITH compaction= { 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy' }
   AND compression = {'sstable_compression' : ''}
-  AND caching = {'keys':'NONE', 'rows_per_partition':'NONE'};
+  AND caching = {'keys':'NONE', 'rows_per_partition':'NONE'}
+  AND EDGE LABEL product_cross_sell FROM product(source_product_id) TO product(cross_sell_product_id);
