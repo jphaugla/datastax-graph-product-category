@@ -13,7 +13,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class RelationsParser {
 
@@ -36,8 +35,8 @@ public class RelationsParser {
         HashMap<String, List<Product>> productCategories = new HashMap<>();
 
         for(final Product product : products.readAll()) {
-            if(productCategories.containsKey(product.getCatId())){
-                productCategories.get(product.getCatId()).add(product);
+            if(productCategories.containsKey(Integer.toString(product.getCatId()))){
+                productCategories.get(Integer.toString(product.getCatId())).add(product);
             } else {
                 List<Product> newCategory = new ArrayList<>();
                 newCategory.add(product);
