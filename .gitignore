@@ -1,2 +1,5 @@
 src/main/data/files.index.csv
 src/main/data/files.index.xml
+*.iml
+target/
+.idea/
