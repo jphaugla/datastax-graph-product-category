@@ -1,6 +1,24 @@
-create keyspace if not exists prodcat WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+CREATE KEYSPACE prodcat WITH replication = {'class': 'NetworkTopologyStrategy', 'GraphAnalytics': '1'}  AND durable_writes = true AND graph_engine = 'Core';
 
-create table if not exists prodcat.product(path text,
+create table if not exists prodcat.user(
+	user_id int,
+	PRIMARY KEY(user_id)
+) WITH compaction= { 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy' }
+  AND compression = {'sstable_compression' : ''}
+  AND caching = {'keys':'NONE', 'rows_per_partition':'NONE'}
+  AND VERTEX LABEL user;
+
+create table if not exists prodcat.model(
+   version text,
+   epoch int,
+   model blob,
+   PRIMARY KEY(version, epoch)
+) WITH compaction= { 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy' }
+      AND compression = {'sstable_compression' : ''}
+      AND caching = {'keys':'NONE', 'rows_per_partition':'NONE'};
+
+create table if not exists prodcat.product(
+    path text,
 	product_id text,
 	updated timestamp,
 	quality text,
@@ -9,7 +27,7 @@ create table if not exists prodcat.product(path text,
 	catid int,
 	m_prod_id text,
 	ean_upc list<text>,
-    	on_market int,
+    on_market int,
 	country_market list<text>,
 	model_name text,
 	product_view int,
@@ -18,7 +36,7 @@ create table if not exists prodcat.product(path text,
 	high_pic_width int,
 	high_pic_height int,
 	m_supplier_id int,
-	m_supplier_name text, 
+	m_supplier_name text,
 	ean_upc_is_approved list<text>,
 	limited text,
 	date_added timestamp,
@@ -71,3 +89,18 @@ create table if not exists prodcat.product_cross_sell(
   AND compression = {'sstable_compression' : ''}
   AND caching = {'keys':'NONE', 'rows_per_partition':'NONE'}
   AND EDGE LABEL product_cross_sell FROM product(source_product_id) TO product(cross_sell_product_id);
+
+create table if not exists prodcat.user_interaction_product(
+   user_id uuid,
+   product_id text,
+   year int,
+   month int,
+   day int,
+   hour int,
+   interaction_time timestamp,
+   type text,
+   PRIMARY KEY((year, month, day, hour), user_id, product_id, interaction_time)
+) WITH compaction= { 'class': 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy' }
+      AND compression = {'sstable_compression' : ''}
+      AND caching = {'keys':'NONE', 'rows_per_partition':'NONE'}
+      AND EDGE LABEL user_interaction_product FROM user(user_id) TO product(product_id);
