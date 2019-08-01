@@ -3,3 +3,5 @@ src/main/data/files.index.xml
 *.iml
 target/
 .idea/
+python/venv
+pyhton/saved_models

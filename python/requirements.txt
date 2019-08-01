@@ -1,0 +1,7 @@
+numpy==1.14.6
+gpustat==0.5.0
+tqdm==4.32.1
+torch==0.4.1
+scikit_learn==0.20.3
+dse-driver==2.9.0.20190711+labs
+Flask

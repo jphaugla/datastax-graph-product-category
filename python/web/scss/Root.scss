@@ -1,0 +1,38 @@
+$fa-font-path: "FontAwesome/webfonts";
+@import "FontAwesome/scss/font-awesome";
+@import "FontAwesome/scss/fa-solid";
+@import "FontAwesome/scss/fa-brands";
+@import "FontAwesome/scss/fa-regular";
+@import "Variables.scss";
+@import "Navbar/Index.scss";
+@import "User/Index.scss";
+@import "Content/Index.scss";
+@import "InfoPane/Index.scss";
+@import "Graph/Index.scss";
+@import "Admin/Index.scss";
+
+html {
+  height:100%;
+}
+body {
+  margin: 0px;
+  height:100%;
+  width: 100%;
+}
+#root{
+  height: 100%;
+}
+
+#rootContainer {
+  background-color: $primary-color;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Fonts/Roboto/Roboto-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "Roboto" ;
+}

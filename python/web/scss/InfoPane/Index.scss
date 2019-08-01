@@ -1,0 +1,58 @@
+#infoPaneContainer {
+  background-color: #232A36;
+  margin-left: 1px;
+}
+
+#infoPaneHeader {
+  font-size: 1.7em;
+  color: white;
+  margin: 10px;
+
+}
+
+#infoPaneImage img {
+  max-width: 250px;
+  max-height: 300px;
+  margin: 10px;
+}
+
+#infoPaneModelName {
+  color: white;
+  margin: 10px;
+}
+
+#purchaseInteractionBtn {
+  width: 100px;
+  height: 40px;
+  margin: 10px 10px 10px 0px;
+  background-color: $secondary-color;
+  color: $accent-color;
+  cursor: pointer;
+}
+
+#purchaseInteractionBtn:hover {
+  background-color: #1A644E;
+  cursor: pointer;
+}
+
+#purchaseInteractionBtn.active {
+  background-color: #1A644E;
+}
+
+#viewInteractionBtn {
+  width: 100px;
+  height: 40px;
+  margin: 10px 10px 10px 0px;
+  background-color: $secondary-color;
+  color: $accent-color;
+  cursor: pointer;
+}
+
+#viewInteractionBtn:hover {
+  background-color: #1A644E;
+  cursor: pointer;
+}
+
+#viewInteractionBtn.active {
+  background-color: #1A644E;
+}

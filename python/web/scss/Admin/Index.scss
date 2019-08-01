@@ -1,0 +1,37 @@
+#adminContainer {
+  padding: 10px;
+  margin-top: 50px;
+}
+
+#trainingChartHeader {
+  color: white;
+  font-size:1.4em;
+}
+#eventHeader {
+  color: white;
+  font-size:1.4em;
+}
+
+#trainingChartContainer {
+  background-color: #232A36;
+}
+
+#eventContainer {
+  background-color: #232A36;
+}
+
+#eventTime {
+  color: white;
+  font-size: 1em;
+}
+
+.recommend {
+  color: $secondary-color;
+  font-size: 50px;
+}
+
+.dont-recommend {
+
+  color: #a02d2d;
+  font-size: 50px;
+}
